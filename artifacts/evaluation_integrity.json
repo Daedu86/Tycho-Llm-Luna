@@ -1,0 +1,63 @@
+{
+  "definition": "Each mode is one public-25 benchmark run: one stochastic trajectory per game, materialized under the shared post-action inference-cost rule.",
+  "modes": {
+    "No world model": {
+      "canonical_trace_sha256": "bd927eacd0bb65d27e5c94303ba7d86c67b99ca3d60b54116511b43e217a868a",
+      "closed_competition_replay": true,
+      "games": 25,
+      "mean_rhae": 79.0730180552312,
+      "scorecard_equal_canonical_trace": true,
+      "scorecard_id": "30bdf730-7aaf-49db-aae4-937df15bc5da",
+      "scorecard_url": "https://arcprize.org/scorecards/30bdf730-7aaf-49db-aae4-937df15bc5da"
+    },
+    "Orchestrator": {
+      "canonical_trace_sha256": "eac93b48d720e173d12d756bf70e6c9d6b171c52542dd9e5abd47a91b02e2113",
+      "closed_competition_replay": true,
+      "games": 25,
+      "mean_rhae": 88.49466339696033,
+      "scorecard_equal_canonical_trace": true,
+      "scorecard_id": "5477a5f0-efe9-43ae-83c1-cda8426c318c",
+      "scorecard_url": "https://arcprize.org/scorecards/5477a5f0-efe9-43ae-83c1-cda8426c318c"
+    },
+    "Single": {
+      "canonical_trace_sha256": "4ef0c8dc1d44ba9b6ad1478283bf6324e461218827e6caafc79ffddd88f1fef8",
+      "closed_competition_replay": true,
+      "games": 25,
+      "mean_rhae": 85.35694600722007,
+      "scorecard_equal_canonical_trace": true,
+      "scorecard_id": "3732640f-0e6c-44d4-8e2c-bae7c6476fad",
+      "scorecard_url": "https://arcprize.org/scorecards/3732640f-0e6c-44d4-8e2c-bae7c6476fad"
+    },
+    "Trigger": {
+      "canonical_trace_sha256": "afa4601f71a58eddc446ba2fd41442b19c0ef26a43231d78c77f8942242feee8",
+      "closed_competition_replay": true,
+      "games": 25,
+      "mean_rhae": 83.0689318343286,
+      "scorecard_equal_canonical_trace": true,
+      "scorecard_id": "f31be13c-411d-4c32-a6c3-99c0a9c1bdbc",
+      "scorecard_url": "https://arcprize.org/scorecards/f31be13c-411d-4c32-a6c3-99c0a9c1bdbc"
+    }
+  },
+  "schema": "tycho.public_evaluation_integrity",
+  "schema_version": 1,
+  "selected_policy_runs": {
+    "GPT-5.6 Sol": {
+      "closed_competition_replay": true,
+      "games": 25,
+      "mean_rhae": 100.0,
+      "scorecard_equal_submission_trace": true,
+      "scorecard_id": "18d94e34-fee4-4fa9-9433-b6ab76c55554",
+      "scorecard_url": "https://arcprize.org/scorecards/18d94e34-fee4-4fa9-9433-b6ab76c55554",
+      "submission_trace_sha256": "ff246aa126665802bb6adc8d25332543a6a53a5666dd240658682369aed5dda8"
+    },
+    "Opus 5": {
+      "closed_competition_replay": true,
+      "games": 25,
+      "mean_rhae": 100.0,
+      "scorecard_equal_submission_trace": true,
+      "scorecard_id": "08b98aa0-5df0-42c0-b501-856f553a21e9",
+      "scorecard_url": "https://arcprize.org/scorecards/08b98aa0-5df0-42c0-b501-856f553a21e9",
+      "submission_trace_sha256": "586e92f8d01a0af148c5d93859a8cd99e3fc38715afb60e8690dcdf105c6d79c"
+    }
+  }
+}

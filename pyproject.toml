@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arc-agi-3-tycho"
+version = "0.1.0"
+description = "Tycho: active abstraction with executable world models for ARC-AGI-3"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.12"
+authors = [
+  {name = "Jens Lehmann"},
+  {name = "Andrei Aioanei"},
+  {name = "Sahar Vahdati"},
+]
+dependencies = [
+  "arc-agi==0.9.9",
+  "arcengine==0.9.3",
+  "jinja2==3.1.6",
+  "numpy==2.4.6",
+  "pillow==12.3.0",
+  "pyyaml==6.0.3",
+]
+
+[project.urls]
+Repository = "https://github.com/NIMI-research/Tycho"
+Issues = "https://github.com/NIMI-research/Tycho/issues"
+
+[project.scripts]
+tycho-run = "tycho.harness.run_parallel:main"
+tycho-submission-replay = "tycho.harness.submission_replay:main"
+tycho-viewer = "tycho.viewer.serve:main"
+tycho-sandbox = "tycho.workspace.sandbox:main"
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[tool.setuptools.packages.find]
+include = ["tycho*"]
+
+[tool.setuptools.package-data]
+tycho = [
+  "prompts/*.j2",
+  "prompts/partials/*.j2",
+  "workspace/templates/*.tmpl",
+  "workspace/container/Containerfile",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "tycho/config"]
+norecursedirs = [".venv", "build", "results"]

@@ -1,0 +1,1336 @@
+{
+  "completed_games": [
+    "ar25",
+    "bp35",
+    "cd82",
+    "cn04",
+    "dc22",
+    "ft09",
+    "g50t",
+    "ka59",
+    "lf52",
+    "lp85",
+    "ls20",
+    "m0r0",
+    "r11l",
+    "re86",
+    "s5i5",
+    "sb26",
+    "sc25",
+    "sk48",
+    "sp80",
+    "su15",
+    "tn36",
+    "tr87",
+    "tu93",
+    "vc33",
+    "wa30"
+  ],
+  "environments": [
+    {
+      "actions": 285,
+      "completed": true,
+      "id": "ar25-0c556536",
+      "level_count": 8,
+      "levels_completed": 8,
+      "resets": 0,
+      "runs": [
+        {
+          "actions": 285,
+          "completed": true,
+          "guid": "6fd8dbba-bf89-442d-9a11-aba3be4eec8d",
+          "id": null,
+          "level_actions": [
+            19,
+            16,
+            44,
+            30,
+            33,
+            53,
+            43,
+            47
+          ],
+          "level_baseline_actions": [
+            32,
+            50,
+            75,
+            37,
+            89,
+            159,
+            233,
+            73
+          ],
+          "level_scores": [
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 8,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 0,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 366,
+      "completed": false,
+      "id": "bp35-0a0ad940",
+      "level_count": 9,
+      "levels_completed": 2,
+      "resets": 23,
+      "runs": [
+        {
+          "actions": 366,
+          "completed": false,
+          "guid": "d16eadb2-73a4-4d06-8130-864f6c390ed1",
+          "id": null,
+          "level_actions": [
+            19,
+            108,
+            239,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "level_baseline_actions": [
+            21,
+            48,
+            44,
+            38,
+            33,
+            87,
+            86,
+            131,
+            163
+          ],
+          "level_scores": [
+            115.0,
+            19.753086419753085,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "levels_completed": 2,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 23,
+          "score": 3.4334705075445817,
+          "state": "GAME_OVER"
+        }
+      ],
+      "score": 3.4334705075445817
+    },
+    {
+      "actions": 170,
+      "completed": true,
+      "id": "cd82-fb555c5d",
+      "level_count": 6,
+      "levels_completed": 6,
+      "resets": 6,
+      "runs": [
+        {
+          "actions": 170,
+          "completed": true,
+          "guid": "d538cda8-c6e3-4711-9754-53cfe7d25193",
+          "id": null,
+          "level_actions": [
+            44,
+            16,
+            51,
+            26,
+            17,
+            16
+          ],
+          "level_baseline_actions": [
+            55,
+            8,
+            41,
+            21,
+            23,
+            23
+          ],
+          "level_scores": [
+            115.0,
+            25.0,
+            64.62898885044214,
+            65.23668639053255,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 6,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 6,
+          "score": 89.75398629111699,
+          "state": "WIN"
+        }
+      ],
+      "score": 89.75398629111699
+    },
+    {
+      "actions": 493,
+      "completed": true,
+      "id": "cn04-2fe56bfb",
+      "level_count": 6,
+      "levels_completed": 6,
+      "resets": 9,
+      "runs": [
+        {
+          "actions": 493,
+          "completed": true,
+          "guid": "0c4b5dc2-b906-439f-84bd-8f5a5d202cf8",
+          "id": null,
+          "level_actions": [
+            16,
+            55,
+            24,
+            39,
+            305,
+            54
+          ],
+          "level_baseline_actions": [
+            29,
+            54,
+            85,
+            300,
+            208,
+            113
+          ],
+          "level_scores": [
+            115.0,
+            96.39669421487604,
+            115.0,
+            115.0,
+            46.50792797635044,
+            115.0
+          ],
+          "levels_completed": 6,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 9,
+          "score": 96.92062039578593,
+          "state": "WIN"
+        }
+      ],
+      "score": 96.92062039578593
+    },
+    {
+      "actions": 1543,
+      "completed": false,
+      "id": "dc22-fdcac232",
+      "level_count": 6,
+      "levels_completed": 5,
+      "resets": 5,
+      "runs": [
+        {
+          "actions": 1543,
+          "completed": false,
+          "guid": "4dc9dc88-8adc-4167-b6c1-86eb40917f57",
+          "id": null,
+          "level_actions": [
+            150,
+            48,
+            63,
+            70,
+            244,
+            968
+          ],
+          "level_baseline_actions": [
+            59,
+            102,
+            67,
+            98,
+            324,
+            578
+          ],
+          "level_scores": [
+            15.47111111111111,
+            115.0,
+            113.10153691106073,
+            115.0,
+            115.0,
+            0.0
+          ],
+          "levels_completed": 5,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 5,
+          "score": 71.42857142857143,
+          "state": "NOT_FINISHED"
+        }
+      ],
+      "score": 71.42857142857143
+    },
+    {
+      "actions": 84,
+      "completed": true,
+      "id": "ft09-0d8bbf25",
+      "level_count": 6,
+      "levels_completed": 6,
+      "resets": 0,
+      "runs": [
+        {
+          "actions": 84,
+          "completed": true,
+          "guid": "a66178ee-de82-444a-b1ef-144265952b97",
+          "id": null,
+          "level_actions": [
+            4,
+            7,
+            18,
+            21,
+            21,
+            13
+          ],
+          "level_baseline_actions": [
+            43,
+            12,
+            23,
+            28,
+            65,
+            37
+          ],
+          "level_scores": [
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 6,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 0,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 707,
+      "completed": true,
+      "id": "g50t-5849a774",
+      "level_count": 7,
+      "levels_completed": 7,
+      "resets": 25,
+      "runs": [
+        {
+          "actions": 707,
+          "completed": true,
+          "guid": "74015eb1-f8ab-4743-ad2a-2ea240a6e044",
+          "id": null,
+          "level_actions": [
+            73,
+            35,
+            85,
+            137,
+            80,
+            150,
+            147
+          ],
+          "level_baseline_actions": [
+            78,
+            175,
+            179,
+            230,
+            96,
+            54,
+            67
+          ],
+          "level_scores": [
+            114.1677613060612,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            12.959999999999999,
+            20.773751677541767
+          ],
+          "levels_completed": 7,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 25,
+          "score": 69.54800082317334,
+          "state": "WIN"
+        }
+      ],
+      "score": 69.54800082317334
+    },
+    {
+      "actions": 798,
+      "completed": true,
+      "id": "ka59-38d34dbb",
+      "level_count": 7,
+      "levels_completed": 7,
+      "resets": 10,
+      "runs": [
+        {
+          "actions": 798,
+          "completed": true,
+          "guid": "d87899c6-f7f6-4164-96d5-dfe39127be54",
+          "id": null,
+          "level_actions": [
+            59,
+            41,
+            54,
+            61,
+            65,
+            74,
+            444
+          ],
+          "level_baseline_actions": [
+            28,
+            109,
+            51,
+            51,
+            33,
+            132,
+            326
+          ],
+          "level_scores": [
+            22.52226371732261,
+            115.0,
+            89.19753086419753,
+            69.90056436441817,
+            25.77514792899408,
+            115.0,
+            53.90999107215324
+          ],
+          "levels_completed": 7,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 10,
+          "score": 71.2843853899154,
+          "state": "WIN"
+        }
+      ],
+      "score": 71.2843853899154
+    },
+    {
+      "actions": 1254,
+      "completed": false,
+      "id": "lf52-271a04aa",
+      "level_count": 10,
+      "levels_completed": 4,
+      "resets": 17,
+      "runs": [
+        {
+          "actions": 1254,
+          "completed": false,
+          "guid": "9b8bdf71-efa1-4deb-887d-523959cccb0b",
+          "id": null,
+          "level_actions": [
+            13,
+            155,
+            50,
+            252,
+            784,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "level_baseline_actions": [
+            32,
+            81,
+            60,
+            71,
+            205,
+            148,
+            244,
+            109,
+            164,
+            225
+          ],
+          "level_scores": [
+            115.0,
+            27.30905306971904,
+            115.0,
+            7.938082640463592,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "levels_completed": 4,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 17,
+          "score": 9.934007940023498,
+          "state": "GAME_OVER"
+        }
+      ],
+      "score": 9.934007940023498
+    },
+    {
+      "actions": 117,
+      "completed": true,
+      "id": "lp85-305b61c3",
+      "level_count": 8,
+      "levels_completed": 8,
+      "resets": 2,
+      "runs": [
+        {
+          "actions": 117,
+          "completed": true,
+          "guid": "aa442835-5322-4993-a74e-d7360d525c10",
+          "id": null,
+          "level_actions": [
+            10,
+            11,
+            18,
+            14,
+            13,
+            22,
+            8,
+            21
+          ],
+          "level_baseline_actions": [
+            17,
+            38,
+            31,
+            16,
+            41,
+            60,
+            26,
+            159
+          ],
+          "level_scores": [
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 8,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 2,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 670,
+      "completed": true,
+      "id": "ls20-9607627b",
+      "level_count": 7,
+      "levels_completed": 7,
+      "resets": 8,
+      "runs": [
+        {
+          "actions": 670,
+          "completed": true,
+          "guid": "b059aa9f-ce70-487f-9f51-dba7e236979d",
+          "id": null,
+          "level_actions": [
+            28,
+            67,
+            87,
+            83,
+            90,
+            178,
+            137
+          ],
+          "level_baseline_actions": [
+            22,
+            123,
+            73,
+            84,
+            96,
+            192,
+            186
+          ],
+          "level_scores": [
+            61.73469387755102,
+            115.0,
+            70.40560179680274,
+            102.42415444912179,
+            113.77777777777777,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 7,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 8,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 252,
+      "completed": true,
+      "id": "m0r0-492f87ba",
+      "level_count": 6,
+      "levels_completed": 6,
+      "resets": 0,
+      "runs": [
+        {
+          "actions": 252,
+          "completed": true,
+          "guid": "be18942e-34cf-45fc-949f-581ea4cf3f98",
+          "id": null,
+          "level_actions": [
+            15,
+            35,
+            75,
+            21,
+            56,
+            50
+          ],
+          "level_baseline_actions": [
+            30,
+            111,
+            203,
+            26,
+            500,
+            237
+          ],
+          "level_scores": [
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 6,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 0,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 157,
+      "completed": true,
+      "id": "r11l-495a7899",
+      "level_count": 6,
+      "levels_completed": 6,
+      "resets": 1,
+      "runs": [
+        {
+          "actions": 157,
+          "completed": true,
+          "guid": "d401083c-f47e-4c45-888b-240140f51e2d",
+          "id": null,
+          "level_actions": [
+            7,
+            31,
+            32,
+            29,
+            31,
+            27
+          ],
+          "level_baseline_actions": [
+            22,
+            33,
+            51,
+            26,
+            52,
+            49
+          ],
+          "level_scores": [
+            115.0,
+            113.3194588969823,
+            115.0,
+            80.38049940546969,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 6,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 1,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 886,
+      "completed": true,
+      "id": "re86-8af5384d",
+      "level_count": 8,
+      "levels_completed": 8,
+      "resets": 6,
+      "runs": [
+        {
+          "actions": 886,
+          "completed": true,
+          "guid": "f21226ef-b0dd-4510-9dd5-75225b0b5b05",
+          "id": null,
+          "level_actions": [
+            20,
+            36,
+            47,
+            80,
+            63,
+            52,
+            146,
+            442
+          ],
+          "level_baseline_actions": [
+            26,
+            42,
+            86,
+            108,
+            189,
+            139,
+            424,
+            241
+          ],
+          "level_scores": [
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            29.729632890399454
+          ],
+          "levels_completed": 8,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 6,
+          "score": 96.05102953119987,
+          "state": "WIN"
+        }
+      ],
+      "score": 96.05102953119987
+    },
+    {
+      "actions": 473,
+      "completed": true,
+      "id": "s5i5-18d95033",
+      "level_count": 8,
+      "levels_completed": 8,
+      "resets": 13,
+      "runs": [
+        {
+          "actions": 473,
+          "completed": true,
+          "guid": "621f30ac-0ada-483e-9f51-40811faa3995",
+          "id": null,
+          "level_actions": [
+            18,
+            31,
+            58,
+            69,
+            41,
+            29,
+            111,
+            116
+          ],
+          "level_baseline_actions": [
+            20,
+            89,
+            106,
+            54,
+            162,
+            38,
+            86,
+            83
+          ],
+          "level_scores": [
+            115.0,
+            115.0,
+            115.0,
+            61.2476370510397,
+            115.0,
+            115.0,
+            60.02759516273029,
+            51.19649227110583
+          ],
+          "levels_completed": 8,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 13,
+          "score": 84.15987923644771,
+          "state": "WIN"
+        }
+      ],
+      "score": 84.15987923644771
+    },
+    {
+      "actions": 140,
+      "completed": true,
+      "id": "sb26-7fbdac44",
+      "level_count": 8,
+      "levels_completed": 8,
+      "resets": 1,
+      "runs": [
+        {
+          "actions": 140,
+          "completed": true,
+          "guid": "85806ab5-60c4-481b-bde5-6b0d4f86bd71",
+          "id": null,
+          "level_actions": [
+            9,
+            31,
+            15,
+            15,
+            17,
+            19,
+            17,
+            17
+          ],
+          "level_baseline_actions": [
+            18,
+            28,
+            18,
+            19,
+            31,
+            23,
+            58,
+            18
+          ],
+          "level_scores": [
+            115.0,
+            81.58168574401664,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            112.11072664359862
+          ],
+          "levels_completed": 8,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 1,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 194,
+      "completed": true,
+      "id": "sc25-635fd71a",
+      "level_count": 6,
+      "levels_completed": 6,
+      "resets": 0,
+      "runs": [
+        {
+          "actions": 194,
+          "completed": true,
+          "guid": "78682145-c5b0-40f7-b448-5f0252d527ce",
+          "id": null,
+          "level_actions": [
+            29,
+            5,
+            33,
+            31,
+            50,
+            46
+          ],
+          "level_baseline_actions": [
+            36,
+            6,
+            32,
+            83,
+            143,
+            50
+          ],
+          "level_scores": [
+            115.0,
+            115.0,
+            94.03122130394858,
+            115.0,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 6,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 0,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 316,
+      "completed": false,
+      "id": "sk48-d8078629",
+      "level_count": 8,
+      "levels_completed": 0,
+      "resets": 11,
+      "runs": [
+        {
+          "actions": 316,
+          "completed": false,
+          "guid": "e69a39e6-2b09-4d83-8c6b-ed67a1d9b649",
+          "id": null,
+          "level_actions": [
+            316,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "level_baseline_actions": [
+            61,
+            177,
+            101,
+            103,
+            230,
+            181,
+            125,
+            92
+          ],
+          "level_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "levels_completed": 0,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 11,
+          "score": 0.0,
+          "state": "NOT_FINISHED"
+        }
+      ],
+      "score": 0.0
+    },
+    {
+      "actions": 756,
+      "completed": false,
+      "id": "sp80-589a99af",
+      "level_count": 6,
+      "levels_completed": 4,
+      "resets": 141,
+      "runs": [
+        {
+          "actions": 756,
+          "completed": false,
+          "guid": "50f5d0ff-088e-474c-8415-a56c3eacccbd",
+          "id": null,
+          "level_actions": [
+            7,
+            78,
+            16,
+            37,
+            618,
+            0
+          ],
+          "level_baseline_actions": [
+            39,
+            58,
+            25,
+            148,
+            96,
+            152
+          ],
+          "level_scores": [
+            115.0,
+            55.29257067718607,
+            115.0,
+            115.0,
+            0.0,
+            0.0
+          ],
+          "levels_completed": 4,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 141,
+          "score": 47.61904761904761,
+          "state": "GAME_OVER"
+        }
+      ],
+      "score": 47.61904761904761
+    },
+    {
+      "actions": 212,
+      "completed": true,
+      "id": "su15-1944f8ab",
+      "level_count": 9,
+      "levels_completed": 9,
+      "resets": 11,
+      "runs": [
+        {
+          "actions": 212,
+          "completed": true,
+          "guid": "5ba2aa9d-bcc9-4d68-928c-44474b0f08d8",
+          "id": null,
+          "level_actions": [
+            24,
+            18,
+            16,
+            41,
+            14,
+            25,
+            7,
+            58,
+            9
+          ],
+          "level_baseline_actions": [
+            22,
+            42,
+            26,
+            115,
+            36,
+            31,
+            8,
+            40,
+            41
+          ],
+          "level_scores": [
+            84.02777777777777,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            47.562425683709876,
+            115.0
+          ],
+          "levels_completed": 9,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 11,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 386,
+      "completed": true,
+      "id": "tn36-ef4dde99",
+      "level_count": 7,
+      "levels_completed": 7,
+      "resets": 27,
+      "runs": [
+        {
+          "actions": 386,
+          "completed": true,
+          "guid": "f83ec440-60f6-49bf-b2ea-727fa42084f2",
+          "id": null,
+          "level_actions": [
+            8,
+            72,
+            13,
+            14,
+            71,
+            160,
+            48
+          ],
+          "level_baseline_actions": [
+            32,
+            72,
+            26,
+            40,
+            30,
+            55,
+            62
+          ],
+          "level_scores": [
+            115.0,
+            100.0,
+            115.0,
+            115.0,
+            17.853600476096013,
+            11.81640625,
+            115.0
+          ],
+          "levels_completed": 7,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 27,
+          "score": 74.47022999573143,
+          "state": "WIN"
+        }
+      ],
+      "score": 74.47022999573143
+    },
+    {
+      "actions": 184,
+      "completed": true,
+      "id": "tr87-cd924810",
+      "level_count": 6,
+      "levels_completed": 6,
+      "resets": 1,
+      "runs": [
+        {
+          "actions": 184,
+          "completed": true,
+          "guid": "477d4d9d-0d88-48b8-89fe-b735d014db6a",
+          "id": null,
+          "level_actions": [
+            24,
+            30,
+            28,
+            27,
+            32,
+            43
+          ],
+          "level_baseline_actions": [
+            54,
+            58,
+            40,
+            45,
+            71,
+            146
+          ],
+          "level_scores": [
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 6,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 1,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 255,
+      "completed": true,
+      "id": "tu93-0768757b",
+      "level_count": 9,
+      "levels_completed": 9,
+      "resets": 5,
+      "runs": [
+        {
+          "actions": 255,
+          "completed": true,
+          "guid": "1cc032a7-d7c2-430e-ae38-23bc27a2b67a",
+          "id": null,
+          "level_actions": [
+            18,
+            15,
+            19,
+            26,
+            59,
+            28,
+            14,
+            21,
+            55
+          ],
+          "level_baseline_actions": [
+            19,
+            16,
+            34,
+            42,
+            123,
+            80,
+            14,
+            23,
+            111
+          ],
+          "level_scores": [
+            111.41975308641976,
+            113.77777777777777,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            100.0,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 9,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 5,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 261,
+      "completed": true,
+      "id": "vc33-5430563c",
+      "level_count": 7,
+      "levels_completed": 7,
+      "resets": 2,
+      "runs": [
+        {
+          "actions": 261,
+          "completed": true,
+          "guid": "4f64f47c-fb42-4c3f-9e66-de582a406ec4",
+          "id": null,
+          "level_actions": [
+            9,
+            10,
+            23,
+            87,
+            61,
+            22,
+            49
+          ],
+          "level_baseline_actions": [
+            7,
+            18,
+            44,
+            61,
+            131,
+            34,
+            152
+          ],
+          "level_scores": [
+            60.49382716049383,
+            115.0,
+            115.0,
+            49.16105165807901,
+            115.0,
+            115.0,
+            115.0
+          ],
+          "levels_completed": 7,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 2,
+          "score": 100.0,
+          "state": "WIN"
+        }
+      ],
+      "score": 100.0
+    },
+    {
+      "actions": 2038,
+      "completed": false,
+      "id": "wa30-ee6fef47",
+      "level_count": 9,
+      "levels_completed": 7,
+      "resets": 14,
+      "runs": [
+        {
+          "actions": 2038,
+          "completed": false,
+          "guid": "720f8c31-3bb8-4d25-adbe-4dbff6ebadc0",
+          "id": null,
+          "level_actions": [
+            50,
+            62,
+            80,
+            50,
+            470,
+            63,
+            48,
+            1215,
+            0
+          ],
+          "level_baseline_actions": [
+            71,
+            119,
+            183,
+            98,
+            368,
+            68,
+            79,
+            442,
+            415
+          ],
+          "level_scores": [
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            61.30556813037574,
+            115.0,
+            115.0,
+            0.0,
+            0.0
+          ],
+          "levels_completed": 7,
+          "message": null,
+          "number_of_environments": 0,
+          "number_of_levels": null,
+          "resets": 14,
+          "score": 62.22222222222222,
+          "state": "GAME_OVER"
+        }
+      ],
+      "score": 62.22222222222222
+    }
+  ],
+  "operation_mode": "competition",
+  "schema": "tycho.public_scorecard_evidence",
+  "schema_version": 1,
+  "score": 79.0730180552312,
+  "scorecard_id": "30bdf730-7aaf-49db-aae4-937df15bc5da",
+  "scorecard_url": "https://arcprize.org/scorecards/30bdf730-7aaf-49db-aae4-937df15bc5da"
+}

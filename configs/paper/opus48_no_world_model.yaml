@@ -1,0 +1,35 @@
+model:
+  backend: anthropic
+  llm_model: claude-opus-4-8
+  effort: xhigh
+  anthropic_thinking: adaptive
+  http_timeout: 1800
+  retry_budget_s: 3600
+
+reasoning:
+  max_tokens: 24000
+  max_llm_calls: 3500
+  max_tool_steps: 40
+  max_inference_cost_per_game: 750
+
+vision:
+  vision: true
+  render_scale: 6
+  text_grid: full
+
+context:
+  prompt_caching: true
+  history: tail_evict
+  grid_keep: 3
+  image_keep: 3
+  image_evict_mult: 2
+  image_cap: 4
+  reasoning_keep: 3
+  cache_rolling_every: 8
+  context_emergency_soft_tokens: 850000
+
+orchestration:
+  mode: no_world_model
+
+dev:
+  meta_reflect: true

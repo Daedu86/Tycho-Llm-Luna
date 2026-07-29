@@ -1,0 +1,1475 @@
+{
+  "GPT-5.6 Sol (selected orchestrator)": {
+    "builder_calls": 660,
+    "context_compactions": 5,
+    "games": {
+      "ar25": {
+        "completed_actions": 254,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "bp35": {
+        "completed_actions": 450,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 6,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "cd82": {
+        "completed_actions": 78,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "cn04": {
+        "completed_actions": 208,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "dc22": {
+        "completed_actions": 995,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ft09": {
+        "completed_actions": 75,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "g50t": {
+        "completed_actions": 310,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 2,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ka59": {
+        "completed_actions": 303,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "lf52": {
+        "completed_actions": 787,
+        "levels_completed": 10,
+        "n_levels": 10,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "lp85": {
+        "completed_actions": 94,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ls20": {
+        "completed_actions": 478,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 3,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "m0r0": {
+        "completed_actions": 224,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "r11l": {
+        "completed_actions": 73,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "re86": {
+        "completed_actions": 522,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "s5i5": {
+        "completed_actions": 249,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sb26": {
+        "completed_actions": 140,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sc25": {
+        "completed_actions": 187,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sk48": {
+        "completed_actions": 470,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 6,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sp80": {
+        "completed_actions": 388,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 8,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "su15": {
+        "completed_actions": 86,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tn36": {
+        "completed_actions": 263,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 9,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tr87": {
+        "completed_actions": 146,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tu93": {
+        "completed_actions": 193,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "vc33": {
+        "completed_actions": 182,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "wa30": {
+        "completed_actions": 611,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      }
+    },
+    "length_stops": 0,
+    "model_calls": 26505,
+    "model_diagnostics": {
+      "accepted_exact_rate": 0.9949121184088807,
+      "death_terminal_n": 10,
+      "death_terminal_recall": 1.0,
+      "known_cell_accuracy": 0.9999804262168691,
+      "level_terminal_n": 183,
+      "level_terminal_recall": 0.994535519125683,
+      "nonterminal_death_false_rate": 0.0,
+      "nonterminal_level_false_rate": 0.0,
+      "outcome_evaluable_games": 25,
+      "outcome_verified_games": 22,
+      "prediction_coverage": 0.9999808406447541,
+      "strict_exact_rate": 0.9875115633672525,
+      "transitions": 6486,
+      "unknown_use_rate": 0.003083564600678384,
+      "variant_use_rate": 0.004316990440949738
+    },
+    "peak_prompt_tokens": 218814,
+    "plan_levels": 34,
+    "planner": {
+      "auto_action_matched": 0,
+      "auto_followed": 0,
+      "auto_recommendations": 0,
+      "builder_action_matched": 636,
+      "builder_followed": 634,
+      "builder_recommendations": 644,
+      "manual_action_matched": 4,
+      "manual_followed": 4,
+      "manual_recommendations": 5,
+      "planner_full_prefixes_followed": 1,
+      "planner_prefix_actions": 150,
+      "planner_prefix_followed": 49
+    },
+    "stop_reasons": {
+      "win": 25
+    }
+  },
+  "No world model": {
+    "builder_calls": 0,
+    "context_compactions": 3,
+    "games": {
+      "ar25": {
+        "completed_actions": 285,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "bp35": {
+        "completed_actions": 127,
+        "levels_completed": 2,
+        "n_levels": 9,
+        "resets": 23,
+        "rhae": 3.4334705075445817,
+        "unfinished_actions": 239
+      },
+      "cd82": {
+        "completed_actions": 170,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 6,
+        "rhae": 89.75398629111699,
+        "unfinished_actions": 0
+      },
+      "cn04": {
+        "completed_actions": 493,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 9,
+        "rhae": 96.92062039578593,
+        "unfinished_actions": 0
+      },
+      "dc22": {
+        "completed_actions": 575,
+        "levels_completed": 5,
+        "n_levels": 6,
+        "resets": 5,
+        "rhae": 71.42857142857143,
+        "unfinished_actions": 968
+      },
+      "ft09": {
+        "completed_actions": 84,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "g50t": {
+        "completed_actions": 707,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 25,
+        "rhae": 69.54800082317334,
+        "unfinished_actions": 0
+      },
+      "ka59": {
+        "completed_actions": 798,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 10,
+        "rhae": 71.2843853899154,
+        "unfinished_actions": 0
+      },
+      "lf52": {
+        "completed_actions": 470,
+        "levels_completed": 4,
+        "n_levels": 10,
+        "resets": 17,
+        "rhae": 9.934007940023498,
+        "unfinished_actions": 784
+      },
+      "lp85": {
+        "completed_actions": 117,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 2,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ls20": {
+        "completed_actions": 670,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 8,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "m0r0": {
+        "completed_actions": 252,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "r11l": {
+        "completed_actions": 157,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "re86": {
+        "completed_actions": 886,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 6,
+        "rhae": 96.05102953119987,
+        "unfinished_actions": 0
+      },
+      "s5i5": {
+        "completed_actions": 473,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 13,
+        "rhae": 84.15987923644771,
+        "unfinished_actions": 0
+      },
+      "sb26": {
+        "completed_actions": 140,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sc25": {
+        "completed_actions": 194,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sk48": {
+        "completed_actions": 0,
+        "levels_completed": 0,
+        "n_levels": 8,
+        "resets": 11,
+        "rhae": 0.0,
+        "unfinished_actions": 316
+      },
+      "sp80": {
+        "completed_actions": 138,
+        "levels_completed": 4,
+        "n_levels": 6,
+        "resets": 141,
+        "rhae": 47.61904761904762,
+        "unfinished_actions": 618
+      },
+      "su15": {
+        "completed_actions": 212,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 11,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tn36": {
+        "completed_actions": 386,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 27,
+        "rhae": 74.47022999573143,
+        "unfinished_actions": 0
+      },
+      "tr87": {
+        "completed_actions": 184,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tu93": {
+        "completed_actions": 255,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 5,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "vc33": {
+        "completed_actions": 261,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 2,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "wa30": {
+        "completed_actions": 823,
+        "levels_completed": 7,
+        "n_levels": 9,
+        "resets": 14,
+        "rhae": 62.22222222222222,
+        "unfinished_actions": 1215
+      }
+    },
+    "length_stops": 0,
+    "model_calls": 22856,
+    "model_diagnostics": {
+      "accepted_exact_rate": null,
+      "death_terminal_n": 0,
+      "death_terminal_recall": null,
+      "known_cell_accuracy": null,
+      "level_terminal_n": 0,
+      "level_terminal_recall": null,
+      "nonterminal_death_false_rate": null,
+      "nonterminal_level_false_rate": null,
+      "outcome_evaluable_games": 0,
+      "outcome_verified_games": 0,
+      "prediction_coverage": null,
+      "strict_exact_rate": null,
+      "transitions": 0,
+      "unknown_use_rate": null,
+      "variant_use_rate": null
+    },
+    "peak_prompt_tokens": 850327,
+    "plan_levels": 0,
+    "planner": {
+      "auto_action_matched": 0,
+      "auto_followed": 0,
+      "auto_recommendations": 0,
+      "builder_action_matched": 0,
+      "builder_followed": 0,
+      "builder_recommendations": 0,
+      "manual_action_matched": 0,
+      "manual_followed": 0,
+      "manual_recommendations": 0,
+      "planner_full_prefixes_followed": 0,
+      "planner_prefix_actions": 0,
+      "planner_prefix_followed": 0
+    },
+    "stop_reasons": {
+      "inference_cost_game_limit": 3,
+      "level_action_budget": 3,
+      "win": 19
+    }
+  },
+  "Opus 5 (selected orchestrator)": {
+    "builder_calls": 130,
+    "context_compactions": 0,
+    "games": {
+      "ar25": {
+        "completed_actions": 259,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "bp35": {
+        "completed_actions": 467,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 5,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "cd82": {
+        "completed_actions": 95,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 3,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "cn04": {
+        "completed_actions": 195,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "dc22": {
+        "completed_actions": 479,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ft09": {
+        "completed_actions": 75,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "g50t": {
+        "completed_actions": 315,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 3,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ka59": {
+        "completed_actions": 300,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "lf52": {
+        "completed_actions": 714,
+        "levels_completed": 10,
+        "n_levels": 10,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "lp85": {
+        "completed_actions": 96,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ls20": {
+        "completed_actions": 415,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 2,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "m0r0": {
+        "completed_actions": 208,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "r11l": {
+        "completed_actions": 70,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "re86": {
+        "completed_actions": 567,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "s5i5": {
+        "completed_actions": 331,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sb26": {
+        "completed_actions": 124,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sc25": {
+        "completed_actions": 163,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sk48": {
+        "completed_actions": 302,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sp80": {
+        "completed_actions": 153,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "su15": {
+        "completed_actions": 113,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tn36": {
+        "completed_actions": 131,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tr87": {
+        "completed_actions": 141,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tu93": {
+        "completed_actions": 191,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "vc33": {
+        "completed_actions": 177,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "wa30": {
+        "completed_actions": 560,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      }
+    },
+    "length_stops": 0,
+    "model_calls": 15103,
+    "model_diagnostics": {
+      "accepted_exact_rate": 0.7026496565260059,
+      "death_terminal_n": 6,
+      "death_terminal_recall": 1.0,
+      "known_cell_accuracy": 0.957308993714688,
+      "level_terminal_n": 181,
+      "level_terminal_recall": 0.8784530386740331,
+      "nonterminal_death_false_rate": 0.0,
+      "nonterminal_level_false_rate": 0.033560234288428054,
+      "outcome_evaluable_games": 25,
+      "outcome_verified_games": 8,
+      "prediction_coverage": 0.9954593197988224,
+      "strict_exact_rate": 0.6323192672554793,
+      "transitions": 6114,
+      "unknown_use_rate": 0.07785410533202486,
+      "variant_use_rate": 0.027314360484134773
+    },
+    "peak_prompt_tokens": 299831,
+    "plan_levels": 32,
+    "planner": {
+      "auto_action_matched": 0,
+      "auto_followed": 0,
+      "auto_recommendations": 0,
+      "builder_action_matched": 122,
+      "builder_followed": 109,
+      "builder_recommendations": 129,
+      "manual_action_matched": 0,
+      "manual_followed": 0,
+      "manual_recommendations": 0,
+      "planner_full_prefixes_followed": 0,
+      "planner_prefix_actions": 0,
+      "planner_prefix_followed": 0
+    },
+    "stop_reasons": {
+      "win": 25
+    }
+  },
+  "Orchestrator": {
+    "builder_calls": 147,
+    "context_compactions": 3,
+    "games": {
+      "ar25": {
+        "completed_actions": 269,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "bp35": {
+        "completed_actions": 272,
+        "levels_completed": 6,
+        "n_levels": 9,
+        "resets": 270,
+        "rhae": 41.00168852426746,
+        "unfinished_actions": 580
+      },
+      "cd82": {
+        "completed_actions": 107,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 4,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "cn04": {
+        "completed_actions": 367,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 4,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "dc22": {
+        "completed_actions": 571,
+        "levels_completed": 5,
+        "n_levels": 6,
+        "resets": 7,
+        "rhae": 71.42857142857143,
+        "unfinished_actions": 590
+      },
+      "ft09": {
+        "completed_actions": 88,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "g50t": {
+        "completed_actions": 390,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 7,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ka59": {
+        "completed_actions": 737,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 6,
+        "rhae": 88.22486659519882,
+        "unfinished_actions": 0
+      },
+      "lf52": {
+        "completed_actions": 325,
+        "levels_completed": 5,
+        "n_levels": 10,
+        "resets": 10,
+        "rhae": 27.272727272727273,
+        "unfinished_actions": 358
+      },
+      "lp85": {
+        "completed_actions": 139,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 7,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ls20": {
+        "completed_actions": 745,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 12,
+        "rhae": 97.87750274357118,
+        "unfinished_actions": 0
+      },
+      "m0r0": {
+        "completed_actions": 231,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "r11l": {
+        "completed_actions": 80,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "re86": {
+        "completed_actions": 681,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "s5i5": {
+        "completed_actions": 347,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 3,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sb26": {
+        "completed_actions": 160,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 2,
+        "rhae": 92.10716633793557,
+        "unfinished_actions": 0
+      },
+      "sc25": {
+        "completed_actions": 188,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sk48": {
+        "completed_actions": 0,
+        "levels_completed": 0,
+        "n_levels": 8,
+        "resets": 9,
+        "rhae": 0.0,
+        "unfinished_actions": 314
+      },
+      "sp80": {
+        "completed_actions": 192,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "su15": {
+        "completed_actions": 188,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 6,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tn36": {
+        "completed_actions": 215,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tr87": {
+        "completed_actions": 192,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tu93": {
+        "completed_actions": 213,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 3,
+        "rhae": 97.68289369855455,
+        "unfinished_actions": 0
+      },
+      "vc33": {
+        "completed_actions": 212,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "wa30": {
+        "completed_actions": 1603,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 11,
+        "rhae": 96.77116832318222,
+        "unfinished_actions": 0
+      }
+    },
+    "length_stops": 0,
+    "model_calls": 24054,
+    "model_diagnostics": {
+      "accepted_exact_rate": 0.4556489262371615,
+      "death_terminal_n": 6,
+      "death_terminal_recall": 0.6666666666666666,
+      "known_cell_accuracy": 0.9721322435547359,
+      "level_terminal_n": 155,
+      "level_terminal_recall": 0.4645161290322581,
+      "nonterminal_death_false_rate": 0.0,
+      "nonterminal_level_false_rate": 0.0034407823252444766,
+      "outcome_evaluable_games": 22,
+      "outcome_verified_games": 4,
+      "prediction_coverage": 0.9777398459383754,
+      "strict_exact_rate": 0.4410830999066293,
+      "transitions": 5355,
+      "unknown_use_rate": 0.03828197945845005,
+      "variant_use_rate": 0.008403361344537815
+    },
+    "peak_prompt_tokens": 852441,
+    "plan_levels": 5,
+    "planner": {
+      "auto_action_matched": 0,
+      "auto_followed": 0,
+      "auto_recommendations": 0,
+      "builder_action_matched": 54,
+      "builder_followed": 35,
+      "builder_recommendations": 68,
+      "manual_action_matched": 0,
+      "manual_followed": 0,
+      "manual_recommendations": 0,
+      "planner_full_prefixes_followed": 0,
+      "planner_prefix_actions": 0,
+      "planner_prefix_followed": 0
+    },
+    "stop_reasons": {
+      "inference_cost_game_limit": 2,
+      "level_action_budget": 1,
+      "llm_call_limit": 1,
+      "win": 21
+    }
+  },
+  "Single": {
+    "builder_calls": 0,
+    "context_compactions": 4,
+    "games": {
+      "ar25": {
+        "completed_actions": 278,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "bp35": {
+        "completed_actions": 15,
+        "levels_completed": 1,
+        "n_levels": 9,
+        "resets": 9,
+        "rhae": 2.2222222222222223,
+        "unfinished_actions": 249
+      },
+      "cd82": {
+        "completed_actions": 121,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 4,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "cn04": {
+        "completed_actions": 883,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 10,
+        "rhae": 89.58965808469088,
+        "unfinished_actions": 0
+      },
+      "dc22": {
+        "completed_actions": 1037,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 10,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ft09": {
+        "completed_actions": 75,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "g50t": {
+        "completed_actions": 649,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 31,
+        "rhae": 94.51068514769598,
+        "unfinished_actions": 0
+      },
+      "ka59": {
+        "completed_actions": 312,
+        "levels_completed": 6,
+        "n_levels": 7,
+        "resets": 19,
+        "rhae": 75.0,
+        "unfinished_actions": 404
+      },
+      "lf52": {
+        "completed_actions": 398,
+        "levels_completed": 5,
+        "n_levels": 10,
+        "resets": 14,
+        "rhae": 27.272727272727273,
+        "unfinished_actions": 751
+      },
+      "lp85": {
+        "completed_actions": 95,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ls20": {
+        "completed_actions": 730,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 13,
+        "rhae": 96.80848250986325,
+        "unfinished_actions": 0
+      },
+      "m0r0": {
+        "completed_actions": 256,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "r11l": {
+        "completed_actions": 143,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "re86": {
+        "completed_actions": 574,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "s5i5": {
+        "completed_actions": 409,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 9,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sb26": {
+        "completed_actions": 130,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sc25": {
+        "completed_actions": 315,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 5,
+        "rhae": 91.93603832065371,
+        "unfinished_actions": 0
+      },
+      "sk48": {
+        "completed_actions": 177,
+        "levels_completed": 4,
+        "n_levels": 8,
+        "resets": 18,
+        "rhae": 27.77777777777778,
+        "unfinished_actions": 266
+      },
+      "sp80": {
+        "completed_actions": 292,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 8,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "su15": {
+        "completed_actions": 190,
+        "levels_completed": 7,
+        "n_levels": 9,
+        "resets": 28,
+        "rhae": 53.65688427853671,
+        "unfinished_actions": 206
+      },
+      "tn36": {
+        "completed_actions": 267,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 8,
+        "rhae": 95.42352939087888,
+        "unfinished_actions": 0
+      },
+      "tr87": {
+        "completed_actions": 218,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 4,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tu93": {
+        "completed_actions": 235,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 4,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "vc33": {
+        "completed_actions": 227,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "wa30": {
+        "completed_actions": 1147,
+        "levels_completed": 8,
+        "n_levels": 9,
+        "resets": 14,
+        "rhae": 79.7256451754551,
+        "unfinished_actions": 527
+      }
+    },
+    "length_stops": 0,
+    "model_calls": 25640,
+    "model_diagnostics": {
+      "accepted_exact_rate": 0.22239467849223946,
+      "death_terminal_n": 12,
+      "death_terminal_recall": 0.25,
+      "known_cell_accuracy": 0.9016390739002228,
+      "level_terminal_n": 137,
+      "level_terminal_recall": 0.2846715328467153,
+      "nonterminal_death_false_rate": 0.005577005577005577,
+      "nonterminal_level_false_rate": 0.0019305019305019305,
+      "outcome_evaluable_games": 21,
+      "outcome_verified_games": 0,
+      "prediction_coverage": 0.9945589661862527,
+      "strict_exact_rate": 0.06917960088691796,
+      "transitions": 4510,
+      "unknown_use_rate": 0.3079822616407982,
+      "variant_use_rate": 0.004878048780487805
+    },
+    "peak_prompt_tokens": 851267,
+    "plan_levels": 0,
+    "planner": {
+      "auto_action_matched": 25,
+      "auto_followed": 25,
+      "auto_recommendations": 29,
+      "builder_action_matched": 0,
+      "builder_followed": 0,
+      "builder_recommendations": 0,
+      "manual_action_matched": 0,
+      "manual_followed": 0,
+      "manual_recommendations": 0,
+      "planner_full_prefixes_followed": 11,
+      "planner_prefix_actions": 217,
+      "planner_prefix_followed": 116
+    },
+    "stop_reasons": {
+      "inference_cost_game_limit": 4,
+      "level_action_budget": 2,
+      "win": 19
+    }
+  },
+  "Trigger": {
+    "builder_calls": 1192,
+    "context_compactions": 1,
+    "games": {
+      "ar25": {
+        "completed_actions": 282,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "bp35": {
+        "completed_actions": 69,
+        "levels_completed": 1,
+        "n_levels": 9,
+        "resets": 12,
+        "rhae": 0.20583910943079187,
+        "unfinished_actions": 250
+      },
+      "cd82": {
+        "completed_actions": 121,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 2,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "cn04": {
+        "completed_actions": 438,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 19,
+        "rhae": 96.90906220741611,
+        "unfinished_actions": 0
+      },
+      "dc22": {
+        "completed_actions": 480,
+        "levels_completed": 5,
+        "n_levels": 6,
+        "resets": 4,
+        "rhae": 66.29153806129429,
+        "unfinished_actions": 304
+      },
+      "ft09": {
+        "completed_actions": 84,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "g50t": {
+        "completed_actions": 403,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 5,
+        "rhae": 89.64674632091238,
+        "unfinished_actions": 0
+      },
+      "ka59": {
+        "completed_actions": 665,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 6,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "lf52": {
+        "completed_actions": 325,
+        "levels_completed": 5,
+        "n_levels": 10,
+        "resets": 8,
+        "rhae": 27.272727272727273,
+        "unfinished_actions": 321
+      },
+      "lp85": {
+        "completed_actions": 101,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "ls20": {
+        "completed_actions": 512,
+        "levels_completed": 6,
+        "n_levels": 7,
+        "resets": 10,
+        "rhae": 69.50833104983947,
+        "unfinished_actions": 215
+      },
+      "m0r0": {
+        "completed_actions": 251,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "r11l": {
+        "completed_actions": 98,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "re86": {
+        "completed_actions": 754,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 1,
+        "rhae": 99.34836544634658,
+        "unfinished_actions": 0
+      },
+      "s5i5": {
+        "completed_actions": 301,
+        "levels_completed": 6,
+        "n_levels": 8,
+        "resets": 13,
+        "rhae": 58.333333333333336,
+        "unfinished_actions": 59
+      },
+      "sb26": {
+        "completed_actions": 197,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 1,
+        "rhae": 97.40168878824623,
+        "unfinished_actions": 0
+      },
+      "sc25": {
+        "completed_actions": 318,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 5,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sk48": {
+        "completed_actions": 503,
+        "levels_completed": 8,
+        "n_levels": 8,
+        "resets": 7,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "sp80": {
+        "completed_actions": 218,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "su15": {
+        "completed_actions": 272,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 14,
+        "rhae": 72.9341465956106,
+        "unfinished_actions": 0
+      },
+      "tn36": {
+        "completed_actions": 221,
+        "levels_completed": 4,
+        "n_levels": 7,
+        "resets": 28,
+        "rhae": 18.871517673057692,
+        "unfinished_actions": 161
+      },
+      "tr87": {
+        "completed_actions": 183,
+        "levels_completed": 6,
+        "n_levels": 6,
+        "resets": 0,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "tu93": {
+        "completed_actions": 278,
+        "levels_completed": 9,
+        "n_levels": 9,
+        "resets": 7,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "vc33": {
+        "completed_actions": 251,
+        "levels_completed": 7,
+        "n_levels": 7,
+        "resets": 1,
+        "rhae": 100.0,
+        "unfinished_actions": 0
+      },
+      "wa30": {
+        "completed_actions": 756,
+        "levels_completed": 8,
+        "n_levels": 9,
+        "resets": 2,
+        "rhae": 80.0,
+        "unfinished_actions": 51
+      }
+    },
+    "length_stops": 0,
+    "model_calls": 44391,
+    "model_diagnostics": {
+      "accepted_exact_rate": 0.9996723996723996,
+      "death_terminal_n": 20,
+      "death_terminal_recall": 1.0,
+      "known_cell_accuracy": 0.9999947422090965,
+      "level_terminal_n": 156,
+      "level_terminal_recall": 0.9807692307692307,
+      "nonterminal_death_false_rate": 0.0,
+      "nonterminal_level_false_rate": 0.0,
+      "outcome_evaluable_games": 24,
+      "outcome_verified_games": 20,
+      "prediction_coverage": 0.9887680516098485,
+      "strict_exact_rate": 0.9289107289107289,
+      "transitions": 6105,
+      "unknown_use_rate": 0.054873054873054876,
+      "variant_use_rate": 0.015888615888615888
+    },
+    "peak_prompt_tokens": 851942,
+    "plan_levels": 34,
+    "planner": {
+      "auto_action_matched": 0,
+      "auto_followed": 0,
+      "auto_recommendations": 0,
+      "builder_action_matched": 748,
+      "builder_followed": 552,
+      "builder_recommendations": 970,
+      "manual_action_matched": 0,
+      "manual_followed": 0,
+      "manual_recommendations": 0,
+      "planner_full_prefixes_followed": 0,
+      "planner_prefix_actions": 0,
+      "planner_prefix_followed": 0
+    },
+    "stop_reasons": {
+      "level_action_budget": 2,
+      "llm_call_limit": 5,
+      "win": 18
+    }
+  }
+}

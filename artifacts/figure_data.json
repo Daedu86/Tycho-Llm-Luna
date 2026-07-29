@@ -1,0 +1,916 @@
+{
+  "budget_sensitivity": {
+    "GPT-5.6 Sol (selected orchestrator)": [
+      {
+        "cap_usd_per_game": 100.0,
+        "levels_completed": 142,
+        "mean_realized_cost_usd": 82.84343422000002,
+        "mean_rhae": 67.9867475537713,
+        "model_calls": 16061,
+        "total_actions": 4534
+      },
+      {
+        "cap_usd_per_game": 250.0,
+        "levels_completed": 169,
+        "mean_realized_cost_usd": 134.97007365000005,
+        "mean_rhae": 89.74805194805195,
+        "model_calls": 22587,
+        "total_actions": 6339
+      },
+      {
+        "cap_usd_per_game": 500.0,
+        "levels_completed": 180,
+        "mean_realized_cost_usd": 168.85926442000007,
+        "mean_rhae": 97.47532467532467,
+        "model_calls": 25875,
+        "total_actions": 7447
+      },
+      {
+        "cap_usd_per_game": 750.0,
+        "levels_completed": 183,
+        "mean_realized_cost_usd": 178.99748241,
+        "mean_rhae": 100.0,
+        "model_calls": 26505,
+        "total_actions": 7766
+      }
+    ],
+    "No world model": [
+      {
+        "cap_usd_per_game": 100.0,
+        "levels_completed": 135,
+        "mean_realized_cost_usd": 79.49066748999999,
+        "mean_rhae": 65.63928469725934,
+        "model_calls": 12140,
+        "total_actions": 6354
+      },
+      {
+        "cap_usd_per_game": 250.0,
+        "levels_completed": 153,
+        "mean_realized_cost_usd": 140.01536903000002,
+        "mean_rhae": 77.8717626503949,
+        "model_calls": 17759,
+        "total_actions": 9711
+      },
+      {
+        "cap_usd_per_game": 500.0,
+        "levels_completed": 157,
+        "mean_realized_cost_usd": 193.93436610000003,
+        "mean_rhae": 79.0730180552312,
+        "model_calls": 20766,
+        "total_actions": 11751
+      },
+      {
+        "cap_usd_per_game": 750.0,
+        "levels_completed": 157,
+        "mean_realized_cost_usd": 226.32524146,
+        "mean_rhae": 79.0730180552312,
+        "model_calls": 22856,
+        "total_actions": 12997
+      }
+    ],
+    "Opus 5 (selected orchestrator)": [
+      {
+        "cap_usd_per_game": 100.0,
+        "levels_completed": 163,
+        "mean_realized_cost_usd": 70.55539981999999,
+        "mean_rhae": 85.0940836940837,
+        "model_calls": 11931,
+        "total_actions": 5351
+      },
+      {
+        "cap_usd_per_game": 250.0,
+        "levels_completed": 181,
+        "mean_realized_cost_usd": 93.87478400999998,
+        "mean_rhae": 98.61818181818182,
+        "model_calls": 14866,
+        "total_actions": 6523
+      },
+      {
+        "cap_usd_per_game": 500.0,
+        "levels_completed": 183,
+        "mean_realized_cost_usd": 95.45996081999998,
+        "mean_rhae": 100.0,
+        "model_calls": 15103,
+        "total_actions": 6641
+      },
+      {
+        "cap_usd_per_game": 750.0,
+        "levels_completed": 183,
+        "mean_realized_cost_usd": 95.45996081999998,
+        "mean_rhae": 100.0,
+        "model_calls": 15103,
+        "total_actions": 6641
+      }
+    ],
+    "Orchestrator": [
+      {
+        "cap_usd_per_game": 100.0,
+        "levels_completed": 142,
+        "mean_realized_cost_usd": 82.64712995,
+        "mean_rhae": 69.35186572830659,
+        "model_calls": 12998,
+        "total_actions": 5738
+      },
+      {
+        "cap_usd_per_game": 250.0,
+        "levels_completed": 163,
+        "mean_realized_cost_usd": 145.02183866999997,
+        "mean_rhae": 86.5736056422004,
+        "model_calls": 19353,
+        "total_actions": 8354
+      },
+      {
+        "cap_usd_per_game": 500.0,
+        "levels_completed": 164,
+        "mean_realized_cost_usd": 193.70528868000002,
+        "mean_rhae": 87.11270555292194,
+        "model_calls": 22140,
+        "total_actions": 9524
+      },
+      {
+        "cap_usd_per_game": 750.0,
+        "levels_completed": 166,
+        "mean_realized_cost_usd": 231.22747370000008,
+        "mean_rhae": 88.49466339696033,
+        "model_calls": 24054,
+        "total_actions": 10354
+      }
+    ],
+    "Single": [
+      {
+        "cap_usd_per_game": 100.0,
+        "levels_completed": 128,
+        "mean_realized_cost_usd": 86.18304779000002,
+        "mean_rhae": 62.126457589922374,
+        "model_calls": 11618,
+        "total_actions": 5399
+      },
+      {
+        "cap_usd_per_game": 250.0,
+        "levels_completed": 153,
+        "mean_realized_cost_usd": 156.37587778,
+        "mean_rhae": 77.96445345867116,
+        "model_calls": 17792,
+        "total_actions": 8235
+      },
+      {
+        "cap_usd_per_game": 500.0,
+        "levels_completed": 158,
+        "mean_realized_cost_usd": 234.18733773999998,
+        "mean_rhae": 81.79697008345788,
+        "model_calls": 22502,
+        "total_actions": 10456
+      },
+      {
+        "cap_usd_per_game": 750.0,
+        "levels_completed": 162,
+        "mean_realized_cost_usd": 290.69731731999997,
+        "mean_rhae": 85.35694600722007,
+        "model_calls": 25640,
+        "total_actions": 11576
+      }
+    ],
+    "Trigger": [
+      {
+        "cap_usd_per_game": 100.0,
+        "levels_completed": 100,
+        "mean_realized_cost_usd": 97.59048103,
+        "mean_rhae": 42.28915554472067,
+        "model_calls": 18487,
+        "total_actions": 3729
+      },
+      {
+        "cap_usd_per_game": 250.0,
+        "levels_completed": 147,
+        "mean_realized_cost_usd": 190.97745026999996,
+        "mean_rhae": 71.13998260753924,
+        "model_calls": 31610,
+        "total_actions": 6879
+      },
+      {
+        "cap_usd_per_game": 500.0,
+        "levels_completed": 160,
+        "mean_realized_cost_usd": 281.5920179,
+        "mean_rhae": 82.04008363622782,
+        "model_calls": 41271,
+        "total_actions": 8690
+      },
+      {
+        "cap_usd_per_game": 750.0,
+        "levels_completed": 162,
+        "mean_realized_cost_usd": 321.00659971,
+        "mean_rhae": 83.0689318343286,
+        "model_calls": 44391,
+        "total_actions": 9442
+      }
+    ]
+  },
+  "human_data": {
+    "games": 25,
+    "replays_per_game": {
+      "ar25": 10,
+      "bp35": 14,
+      "cd82": 11,
+      "cn04": 12,
+      "dc22": 11,
+      "ft09": 10,
+      "g50t": 12,
+      "ka59": 10,
+      "lf52": 11,
+      "lp85": 54,
+      "ls20": 13,
+      "m0r0": 11,
+      "r11l": 10,
+      "re86": 11,
+      "s5i5": 11,
+      "sb26": 12,
+      "sc25": 15,
+      "sk48": 14,
+      "sp80": 12,
+      "su15": 13,
+      "tn36": 14,
+      "tr87": 12,
+      "tu93": 13,
+      "vc33": 10,
+      "wa30": 14
+    },
+    "sha256": "99a32ffc3b9e55bc3077b979d00906f256c26354b5fada0b052690b2f5cd634a",
+    "valid_replays": 340
+  },
+  "paired": {
+    "orchestrator_minus_no_world_model": {
+      "ci_high": 15.761389922481692,
+      "ci_low": 3.96645760215714,
+      "hi": "Orchestrator",
+      "largest_absolute_contributions": [
+        {
+          "delta_rhae": 52.38095238095238,
+          "game": "sp80"
+        },
+        {
+          "delta_rhae": 37.568218016722874,
+          "game": "bp35"
+        },
+        {
+          "delta_rhae": 34.54894610096,
+          "game": "wa30"
+        },
+        {
+          "delta_rhae": 30.45199917682666,
+          "game": "g50t"
+        },
+        {
+          "delta_rhae": 25.52977000426857,
+          "game": "tn36"
+        }
+      ],
+      "leave_one_out_max": 10.143081966887205,
+      "leave_one_out_min": 7.631674215094837,
+      "lo": "No world model",
+      "matched_level_efficiency": {
+        "hi_action_reduction_pct": 18.855142824884272,
+        "hi_actions": 7187,
+        "hi_better_levels": 81,
+        "lo_actions": 8857,
+        "lo_better_levels": 42,
+        "matched_levels": 157,
+        "tied_levels": 34
+      },
+      "mean_delta_rhae": 9.421645341729139,
+      "median_delta_rhae": 0.0,
+      "negative_games": 3,
+      "positive_games": 11,
+      "tied_games": 11
+    },
+    "orchestrator_minus_single": {
+      "ci_high": 9.275958673129882,
+      "ci_low": -2.607259422947169,
+      "hi": "Orchestrator",
+      "largest_absolute_contributions": [
+        {
+          "delta_rhae": 46.34311572146329,
+          "game": "su15"
+        },
+        {
+          "delta_rhae": 38.779466302045236,
+          "game": "bp35"
+        },
+        {
+          "delta_rhae": -28.57142857142857,
+          "game": "dc22"
+        },
+        {
+          "delta_rhae": -27.77777777777778,
+          "game": "sk48"
+        },
+        {
+          "delta_rhae": 17.045523147727124,
+          "game": "wa30"
+        }
+      ],
+      "leave_one_out_max": 4.45893180478897,
+      "leave_one_out_min": 1.3374924592518094,
+      "lo": "Single",
+      "matched_level_efficiency": {
+        "hi_action_reduction_pct": 10.394985808893093,
+        "hi_actions": 7577,
+        "hi_better_levels": 76,
+        "lo_actions": 8456,
+        "lo_better_levels": 54,
+        "matched_levels": 157,
+        "tied_levels": 27
+      },
+      "mean_delta_rhae": 3.137717389740269,
+      "median_delta_rhae": 0.0,
+      "negative_games": 4,
+      "positive_games": 9,
+      "tied_games": 12
+    },
+    "orchestrator_minus_trigger": {
+      "ci_high": 16.44261682548385,
+      "ci_low": -6.727474862384498,
+      "hi": "Orchestrator",
+      "largest_absolute_contributions": [
+        {
+          "delta_rhae": -100.0,
+          "game": "sk48"
+        },
+        {
+          "delta_rhae": 81.1284823269423,
+          "game": "tn36"
+        },
+        {
+          "delta_rhae": 41.666666666666664,
+          "game": "s5i5"
+        },
+        {
+          "delta_rhae": 40.79584941483667,
+          "game": "bp35"
+        },
+        {
+          "delta_rhae": 28.369171693731715,
+          "game": "ls20"
+        }
+      ],
+      "leave_one_out_max": 9.818470377741406,
+      "leave_one_out_min": 2.271450280785477,
+      "lo": "Trigger",
+      "matched_level_efficiency": {
+        "hi_action_reduction_pct": -1.4515703351807865,
+        "hi_actions": 7688,
+        "hi_better_levels": 66,
+        "lo_actions": 7578,
+        "lo_better_levels": 59,
+        "matched_levels": 154,
+        "tied_levels": 29
+      },
+      "mean_delta_rhae": 5.42573156263175,
+      "median_delta_rhae": 0.0,
+      "negative_games": 4,
+      "positive_games": 10,
+      "tied_games": 11
+    },
+    "single_minus_no_world_model": {
+      "ci_high": 13.150537217362109,
+      "ci_low": -0.6725322148758471,
+      "hi": "Single",
+      "largest_absolute_contributions": [
+        {
+          "delta_rhae": 52.38095238095238,
+          "game": "sp80"
+        },
+        {
+          "delta_rhae": -46.34311572146329,
+          "game": "su15"
+        },
+        {
+          "delta_rhae": 28.57142857142857,
+          "game": "dc22"
+        },
+        {
+          "delta_rhae": 27.77777777777778,
+          "game": "sk48"
+        },
+        {
+          "delta_rhae": 24.96268432452264,
+          "game": "g50t"
+        }
+      ],
+      "leave_one_out_max": 8.476721438382711,
+      "leave_one_out_min": 4.363218600782058,
+      "lo": "No world model",
+      "matched_level_efficiency": {
+        "hi_action_reduction_pct": 8.50934692886623,
+        "hi_actions": 7537,
+        "hi_better_levels": 71,
+        "lo_actions": 8238,
+        "lo_better_levels": 51,
+        "matched_levels": 153,
+        "tied_levels": 31
+      },
+      "mean_delta_rhae": 6.283927951988871,
+      "median_delta_rhae": 0.0,
+      "negative_games": 5,
+      "positive_games": 11,
+      "tied_games": 9
+    },
+    "trigger_minus_no_world_model": {
+      "ci_high": 15.683128490434823,
+      "ci_low": -6.351510139631081,
+      "hi": "Trigger",
+      "largest_absolute_contributions": [
+        {
+          "delta_rhae": 100.0,
+          "game": "sk48"
+        },
+        {
+          "delta_rhae": -55.598712322673734,
+          "game": "tn36"
+        },
+        {
+          "delta_rhae": 52.38095238095238,
+          "game": "sp80"
+        },
+        {
+          "delta_rhae": -30.49166895016053,
+          "game": "ls20"
+        },
+        {
+          "delta_rhae": 28.7156146100846,
+          "game": "ka59"
+        }
+      ],
+      "leave_one_out_max": 6.479023200004519,
+      "leave_one_out_min": -0.004256480106885767,
+      "lo": "No world model",
+      "matched_level_efficiency": {
+        "hi_action_reduction_pct": 11.867752282260055,
+        "hi_actions": 7144,
+        "hi_better_levels": 74,
+        "lo_actions": 8106,
+        "lo_better_levels": 50,
+        "matched_levels": 150,
+        "tied_levels": 26
+      },
+      "mean_delta_rhae": 3.9959137790973895,
+      "median_delta_rhae": 0.0,
+      "negative_games": 8,
+      "positive_games": 8,
+      "tied_games": 9
+    }
+  },
+  "runs": {
+    "GPT-5.6 Sol (selected orchestrator)": {
+      "cache_read": 949003893,
+      "cache_write": 512477203,
+      "efficiency": {
+        "baseline_action_ratio": 2.2064,
+        "baseline_actions": 17135,
+        "capped_levels": 167,
+        "completed_level_actions": 7766,
+        "completed_levels": 183,
+        "rhae_baseline_scale_0_5": 86.3946,
+        "rhae_baseline_scale_1_0": 100.0,
+        "rhae_baseline_scale_1_5": 100.0,
+        "total_actions": 7766,
+        "unfinished_tail_actions": 0
+      },
+      "estimated_list_cost_usd": 4474.94,
+      "estimated_list_cost_usd_by_game": {
+        "ar25": 85.09,
+        "bp35": 297.88,
+        "cd82": 34.58,
+        "cn04": 117.84,
+        "dc22": 649.26,
+        "ft09": 31.99,
+        "g50t": 114.46,
+        "ka59": 172.0,
+        "lf52": 604.89,
+        "lp85": 52.77,
+        "ls20": 264.77,
+        "m0r0": 73.16,
+        "r11l": 41.28,
+        "re86": 229.21,
+        "s5i5": 124.45,
+        "sb26": 41.43,
+        "sc25": 111.84,
+        "sk48": 333.04,
+        "sp80": 190.85,
+        "su15": 76.22,
+        "tn36": 148.81,
+        "tr87": 70.1,
+        "tu93": 74.38,
+        "vc33": 81.97,
+        "wa30": 452.66
+      },
+      "estimated_list_cost_usd_game_q1": 73.16,
+      "estimated_list_cost_usd_game_q3": 229.21,
+      "estimated_list_cost_usd_median_game": 114.46,
+      "estimated_list_cost_usd_per_game": 179.0,
+      "estimated_list_cost_usd_without_cache": 8104.86,
+      "estimated_prompt_cache_savings_pct": 44.79,
+      "human_match_or_beat_rate": 98.5294,
+      "human_midrank_mean": 98.4715,
+      "human_pooled_midrank": 98.5294,
+      "human_strict_win_rate": 98.5294,
+      "human_tie_rate": 0.0,
+      "human_top10_games": 24,
+      "inference_budget": {
+        "max_cost_per_game_usd": 1500.0,
+        "max_cost_per_level_usd": 0.0,
+        "price_schedule": "public-list-2026-07-13"
+      },
+      "inference_budget_capped_games": [],
+      "levels_completed": 183,
+      "mean_rhae": 100.0,
+      "midrank_ci_high": 100.0,
+      "midrank_ci_low": 95.8442,
+      "model": "gpt-5.6-sol",
+      "model_calls": 26505,
+      "scorecard_url": "https://arcprize.org/scorecards/18d94e34-fee4-4fa9-9433-b6ab76c55554",
+      "tokens_in": 69772765,
+      "tokens_out": 14952959,
+      "total_actions": 7766
+    },
+    "No world model": {
+      "cache_read": 4067522738,
+      "cache_write": 125045094,
+      "efficiency": {
+        "baseline_action_ratio": 1.4345,
+        "baseline_actions": 12705,
+        "capped_levels": 114,
+        "completed_level_actions": 8857,
+        "completed_levels": 157,
+        "rhae_baseline_scale_0_5": 55.0201,
+        "rhae_baseline_scale_1_0": 79.073,
+        "rhae_baseline_scale_1_5": 82.3972,
+        "total_actions": 12997,
+        "unfinished_tail_actions": 4140
+      },
+      "estimated_list_cost_usd": 5658.13,
+      "estimated_list_cost_usd_by_game": {
+        "ar25": 78.03,
+        "bp35": 410.83,
+        "cd82": 42.38,
+        "cn04": 219.52,
+        "dc22": 752.19,
+        "ft09": 21.23,
+        "g50t": 343.52,
+        "ka59": 348.53,
+        "lf52": 750.2,
+        "lp85": 40.18,
+        "ls20": 246.69,
+        "m0r0": 52.84,
+        "r11l": 80.32,
+        "re86": 190.62,
+        "s5i5": 155.75,
+        "sb26": 21.67,
+        "sc25": 50.74,
+        "sk48": 105.68,
+        "sp80": 561.57,
+        "su15": 83.21,
+        "tn36": 142.7,
+        "tr87": 48.01,
+        "tu93": 88.86,
+        "vc33": 72.63,
+        "wa30": 750.23
+      },
+      "estimated_list_cost_usd_game_q1": 52.84,
+      "estimated_list_cost_usd_game_q3": 343.52,
+      "estimated_list_cost_usd_median_game": 105.68,
+      "estimated_list_cost_usd_per_game": 226.33,
+      "estimated_list_cost_usd_without_cache": 23805.68,
+      "estimated_prompt_cache_savings_pct": 76.23,
+      "human_match_or_beat_rate": 81.1765,
+      "human_midrank_mean": 79.857,
+      "human_pooled_midrank": 81.1765,
+      "human_strict_win_rate": 81.1765,
+      "human_tie_rate": 0.0,
+      "human_top10_games": 13,
+      "inference_budget": {
+        "max_cost_per_game_usd": 750.0,
+        "max_cost_per_level_usd": 0.0,
+        "policy": "post_action_soft_cap",
+        "price_model_override": null,
+        "price_schedule": "public-list-2026-06-18"
+      },
+      "inference_budget_capped_games": [
+        "dc22",
+        "lf52",
+        "wa30"
+      ],
+      "levels_completed": 157,
+      "mean_rhae": 79.0730180552312,
+      "midrank_ci_high": 90.7334,
+      "midrank_ci_low": 67.413,
+      "model": "claude-opus-4-8",
+      "model_calls": 22856,
+      "scorecard_url": "https://arcprize.org/scorecards/30bdf730-7aaf-49db-aae4-937df15bc5da",
+      "tokens_in": 404486616,
+      "tokens_out": 32816190,
+      "total_actions": 12997
+    },
+    "Opus 5 (selected orchestrator)": {
+      "cache_read": 947433620,
+      "cache_write": 50747962,
+      "efficiency": {
+        "baseline_action_ratio": 2.5802,
+        "baseline_actions": 17135,
+        "capped_levels": 171,
+        "completed_level_actions": 6641,
+        "completed_levels": 183,
+        "rhae_baseline_scale_0_5": 88.2304,
+        "rhae_baseline_scale_1_0": 100.0,
+        "rhae_baseline_scale_1_5": 100.0,
+        "total_actions": 6641,
+        "unfinished_tail_actions": 0
+      },
+      "estimated_list_cost_usd": 2986.04,
+      "estimated_list_cost_usd_by_game": {
+        "ar25": 52.17,
+        "bp35": 302.96,
+        "cd82": 31.53,
+        "cn04": 70.15,
+        "dc22": 113.92,
+        "ft09": 24.76,
+        "g50t": 87.99,
+        "ka59": 140.17,
+        "lf52": 290.67,
+        "lp85": 53.67,
+        "ls20": 120.86,
+        "m0r0": 52.94,
+        "r11l": 68.73,
+        "re86": 137.55,
+        "s5i5": 196.85,
+        "sb26": 39.46,
+        "sc25": 98.4,
+        "sk48": 240.39,
+        "sp80": 149.34,
+        "su15": 213.47,
+        "tn36": 97.04,
+        "tr87": 34.88,
+        "tu93": 91.25,
+        "vc33": 53.4,
+        "wa30": 223.48
+      },
+      "estimated_list_cost_usd_game_q1": 53.4,
+      "estimated_list_cost_usd_game_q3": 149.34,
+      "estimated_list_cost_usd_median_game": 97.04,
+      "estimated_list_cost_usd_per_game": 119.44,
+      "estimated_list_cost_usd_without_cache": 7186.06,
+      "estimated_prompt_cache_savings_pct": 58.45,
+      "human_match_or_beat_rate": 100.0,
+      "human_midrank_mean": 100.0,
+      "human_pooled_midrank": 100.0,
+      "human_strict_win_rate": 100.0,
+      "human_tie_rate": 0.0,
+      "human_top10_games": 25,
+      "inference_budget": {
+        "max_cost_per_game_usd": 1500.0,
+        "max_cost_per_level_usd": 0.0,
+        "price_schedule": "public-list-2026-07-13"
+      },
+      "inference_budget_capped_games": [],
+      "levels_completed": 183,
+      "mean_rhae": 100.0,
+      "midrank_ci_high": 100.0,
+      "midrank_ci_low": 100.0,
+      "model": "claude-opus-5",
+      "model_calls": 15103,
+      "scorecard_url": "https://arcprize.org/scorecards/08b98aa0-5df0-42c0-b501-856f553a21e9",
+      "tokens_in": 321864558,
+      "tokens_out": 23433077,
+      "total_actions": 6641
+    },
+    "Orchestrator": {
+      "cache_read": 3286259730,
+      "cache_write": 207312042,
+      "efficiency": {
+        "baseline_action_ratio": 1.6702,
+        "baseline_actions": 14217,
+        "capped_levels": 138,
+        "completed_level_actions": 8512,
+        "completed_levels": 166,
+        "rhae_baseline_scale_0_5": 64.2925,
+        "rhae_baseline_scale_1_0": 88.4947,
+        "rhae_baseline_scale_1_5": 89.6321,
+        "total_actions": 10354,
+        "unfinished_tail_actions": 1842
+      },
+      "estimated_list_cost_usd": 5780.69,
+      "estimated_list_cost_usd_by_game": {
+        "ar25": 62.26,
+        "bp35": 757.55,
+        "cd82": 38.03,
+        "cn04": 205.03,
+        "dc22": 738.28,
+        "ft09": 38.16,
+        "g50t": 188.19,
+        "ka59": 464.05,
+        "lf52": 750.51,
+        "lp85": 56.92,
+        "ls20": 248.95,
+        "m0r0": 40.69,
+        "r11l": 69.53,
+        "re86": 207.22,
+        "s5i5": 241.46,
+        "sb26": 52.49,
+        "sc25": 78.9,
+        "sk48": 186.99,
+        "sp80": 169.43,
+        "su15": 190.76,
+        "tn36": 81.26,
+        "tr87": 51.67,
+        "tu93": 106.69,
+        "vc33": 50.39,
+        "wa30": 705.27
+      },
+      "estimated_list_cost_usd_game_q1": 56.92,
+      "estimated_list_cost_usd_game_q3": 241.46,
+      "estimated_list_cost_usd_median_game": 169.43,
+      "estimated_list_cost_usd_per_game": 231.23,
+      "estimated_list_cost_usd_without_cache": 20309.72,
+      "estimated_prompt_cache_savings_pct": 71.54,
+      "human_match_or_beat_rate": 87.0588,
+      "human_midrank_mean": 86.1401,
+      "human_pooled_midrank": 87.0588,
+      "human_strict_win_rate": 87.0588,
+      "human_tie_rate": 0.0,
+      "human_top10_games": 17,
+      "inference_budget": {
+        "max_cost_per_game_usd": 750.0,
+        "max_cost_per_level_usd": 0.0,
+        "policy": "post_action_soft_cap",
+        "price_model_override": null,
+        "price_schedule": "public-list-2026-06-18"
+      },
+      "inference_budget_capped_games": [
+        "bp35",
+        "lf52"
+      ],
+      "levels_completed": 166,
+      "mean_rhae": 88.49466339696033,
+      "midrank_ci_high": 95.7246,
+      "midrank_ci_low": 74.2037,
+      "model": "claude-opus-4-8",
+      "model_calls": 24054,
+      "scorecard_url": "https://arcprize.org/scorecards/5477a5f0-efe9-43ae-83c1-cda8426c318c",
+      "tokens_in": 389576053,
+      "tokens_out": 35759058,
+      "total_actions": 10354
+    },
+    "Single": {
+      "cache_read": 4936010346,
+      "cache_write": 155021412,
+      "efficiency": {
+        "baseline_action_ratio": 1.5442,
+        "baseline_actions": 14165,
+        "capped_levels": 133,
+        "completed_level_actions": 9173,
+        "completed_levels": 162,
+        "rhae_baseline_scale_0_5": 61.0408,
+        "rhae_baseline_scale_1_0": 85.3569,
+        "rhae_baseline_scale_1_5": 86.6619,
+        "total_actions": 11576,
+        "unfinished_tail_actions": 2403
+      },
+      "estimated_list_cost_usd": 7267.43,
+      "estimated_list_cost_usd_by_game": {
+        "ar25": 59.13,
+        "bp35": 255.19,
+        "cd82": 47.64,
+        "cn04": 679.36,
+        "dc22": 504.66,
+        "ft09": 41.63,
+        "g50t": 280.42,
+        "ka59": 760.25,
+        "lf52": 725.79,
+        "lp85": 46.64,
+        "ls20": 405.97,
+        "m0r0": 70.9,
+        "r11l": 92.51,
+        "re86": 165.52,
+        "s5i5": 196.74,
+        "sb26": 33.31,
+        "sc25": 79.44,
+        "sk48": 766.87,
+        "sp80": 137.76,
+        "su15": 750.36,
+        "tn36": 100.75,
+        "tr87": 62.02,
+        "tu93": 151.09,
+        "vc33": 100.05,
+        "wa30": 753.45
+      },
+      "estimated_list_cost_usd_game_q1": 70.9,
+      "estimated_list_cost_usd_game_q3": 504.66,
+      "estimated_list_cost_usd_median_game": 151.09,
+      "estimated_list_cost_usd_per_game": 290.7,
+      "estimated_list_cost_usd_without_cache": 29285.7,
+      "estimated_prompt_cache_savings_pct": 75.18,
+      "human_match_or_beat_rate": 84.1176,
+      "human_midrank_mean": 83.2335,
+      "human_pooled_midrank": 84.1176,
+      "human_strict_win_rate": 84.1176,
+      "human_tie_rate": 0.0,
+      "human_top10_games": 14,
+      "inference_budget": {
+        "max_cost_per_game_usd": 750.0,
+        "max_cost_per_level_usd": 0.0,
+        "policy": "post_action_soft_cap",
+        "price_model_override": null,
+        "price_schedule": "public-list-2026-06-18"
+      },
+      "inference_budget_capped_games": [
+        "ka59",
+        "sk48",
+        "su15",
+        "wa30"
+      ],
+      "levels_completed": 162,
+      "mean_rhae": 85.35694600722007,
+      "midrank_ci_high": 92.0627,
+      "midrank_ci_low": 72.8884,
+      "model": "claude-opus-4-8",
+      "model_calls": 25640,
+      "scorecard_url": "https://arcprize.org/scorecards/3732640f-0e6c-44d4-8e2c-bae7c6476fad",
+      "tokens_in": 594469097,
+      "tokens_out": 34327938,
+      "total_actions": 11576
+    },
+    "Trigger": {
+      "cache_read": 3610125008,
+      "cache_write": 255115383,
+      "efficiency": {
+        "baseline_action_ratio": 1.7473,
+        "baseline_actions": 14120,
+        "capped_levels": 124,
+        "completed_level_actions": 8081,
+        "completed_levels": 162,
+        "rhae_baseline_scale_0_5": 61.0017,
+        "rhae_baseline_scale_1_0": 83.0689,
+        "rhae_baseline_scale_1_5": 85.5765,
+        "total_actions": 9442,
+        "unfinished_tail_actions": 1361
+      },
+      "estimated_list_cost_usd": 8025.16,
+      "estimated_list_cost_usd_by_game": {
+        "ar25": 121.13,
+        "bp35": 433.21,
+        "cd82": 102.46,
+        "cn04": 188.33,
+        "dc22": 718.76,
+        "ft09": 60.06,
+        "g50t": 329.07,
+        "ka59": 475.29,
+        "lf52": 701.54,
+        "lp85": 100.62,
+        "ls20": 638.56,
+        "m0r0": 86.93,
+        "r11l": 114.11,
+        "re86": 663.67,
+        "s5i5": 629.83,
+        "sb26": 78.02,
+        "sc25": 421.45,
+        "sk48": 281.21,
+        "sp80": 179.94,
+        "su15": 647.94,
+        "tn36": 321.43,
+        "tr87": 84.75,
+        "tu93": 212.43,
+        "vc33": 170.57,
+        "wa30": 263.88
+      },
+      "estimated_list_cost_usd_game_q1": 114.11,
+      "estimated_list_cost_usd_game_q3": 475.29,
+      "estimated_list_cost_usd_median_game": 263.88,
+      "estimated_list_cost_usd_per_game": 321.01,
+      "estimated_list_cost_usd_without_cache": 23951.83,
+      "estimated_prompt_cache_savings_pct": 66.49,
+      "human_match_or_beat_rate": 83.2353,
+      "human_midrank_mean": 81.9676,
+      "human_pooled_midrank": 83.0882,
+      "human_strict_win_rate": 82.9412,
+      "human_tie_rate": 0.2941,
+      "human_top10_games": 15,
+      "inference_budget": {
+        "max_cost_per_game_usd": 750.0,
+        "max_cost_per_level_usd": 0.0,
+        "policy": "post_action_soft_cap",
+        "price_model_override": null,
+        "price_schedule": "public-list-2026-06-18"
+      },
+      "inference_budget_capped_games": [],
+      "levels_completed": 162,
+      "mean_rhae": 83.0689318343286,
+      "midrank_ci_high": 91.5555,
+      "midrank_ci_low": 70.9961,
+      "model": "claude-opus-4-8",
+      "model_calls": 44391,
+      "scorecard_url": "https://arcprize.org/scorecards/f31be13c-411d-4c32-a6c3-99c0a9c1bdbc",
+      "tokens_in": 609441784,
+      "tokens_out": 63136897,
+      "total_actions": 9442
+    }
+  }
+}
