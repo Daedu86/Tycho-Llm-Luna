@@ -183,6 +183,9 @@
     "tests/prompts/test_actor_prompt_contracts.py": {
       "sha256": "1de12f66322c6a493dfdf8a4935e6f9a63dcc085767098d7e37bb3ad4b90576d"
     },
+    "tests/serving/test_codex_luna_plugin.py": {
+      "sha256": "2f39f5c75bd42a1b691cbcc7b50b77a7ce2385db53e37a31d3d96d356d4c9ff3"
+    },
     "tests/serving/test_pricing.py": {
       "sha256": "2c3f8bb99b9b9778956615d1f0817f841a55e751e55362c815614f8e457231be"
     },
@@ -393,6 +396,9 @@
     "tycho/serving/__init__.py": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
+    "tycho/serving/codex_luna_plugin.py": {
+      "sha256": "aa1990cfd73e584c46af4b80b3bf5f39e459d191ace221ce1515c7d7fb39726c"
+    },
     "tycho/serving/llm_client.py": {
       "sha256": "c23c49f7736e6721fc14d6009f7f0a427d221ba5157118b897326ca8bd708030"
     },
@@ -454,7 +460,7 @@
       "sha256": "90a6a9d9060613c211708c2a99148acdb6754658e776d65556be670c43d796d3"
     }
   },
-  "generated_at": "2026-07-29T17:29:45.473646+00:00",
+  "generated_at": "2026-08-09T19:33:00+00:00",
   "schema": "tycho.release_manifest",
   "schema_version": 1
 }
