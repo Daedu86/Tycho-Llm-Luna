@@ -100,7 +100,7 @@
       "sha256": "a9bf87f1058f53c079a68b8708afb9f0434e2e1ab8645bc82798c760e50264d9"
     },
     "scripts/validate_public.py": {
-      "sha256": "0d83f37fa293cc70ac70059bc4755cb99662890b966dc2600ab390c7b75336a0"
+      "sha256": "349fd335912701cc36ead55d46d7794cd5b8154bec475a13a7a0fd5b4fc9a3ad"
     },
     "scripts/validate_wheel.py": {
       "sha256": "16aa69e7cc6ae242e68c7a926b9a81485a08b1fb4b629ded7d675154a12fac3e"
