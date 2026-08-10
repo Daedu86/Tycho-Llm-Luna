@@ -81,6 +81,9 @@
     "docs/ARCHITECTURE.md": {
       "sha256": "72f9ac9f0f2e31ce259c9f8c414c3af17c5b40c8750b9b040a26b5d3e8255985"
     },
+    "docs/CODEX_LUNA.md": {
+      "sha256": "90572210d17fbe2effcdaa9f0511aa9de5f7063f8dfa9a5e081fc84f7920624b"
+    },
     "docs/PAPER_RESULTS.md": {
       "sha256": "dda3269a1c887fb0d1c360245f8b1effdd53eb8bdaaba2b33dc258c6104d78c9"
     },
@@ -90,8 +93,11 @@
     "pyproject.toml": {
       "sha256": "a8ead8589c1c4d2e9e76f466fbad5592143bfc0e50463ad3b6d317b5d47a9734"
     },
+    "scripts/codex_preflight.py": {
+      "sha256": "0212e55b5085f59d2f3d1865d40e29ccfea6c24f529e23705817b31fc961197f"
+    },
     "scripts/smoke_provider.py": {
-      "sha256": "8921799eb87eec24cf8d86d13036ac06e74736b6423791cf957c1220308b122d"
+      "sha256": "a9bf87f1058f53c079a68b8708afb9f0434e2e1ab8645bc82798c760e50264d9"
     },
     "scripts/validate_public.py": {
       "sha256": "0d83f37fa293cc70ac70059bc4755cb99662890b966dc2600ab390c7b75336a0"
@@ -460,7 +466,7 @@
       "sha256": "90a6a9d9060613c211708c2a99148acdb6754658e776d65556be670c43d796d3"
     }
   },
-  "generated_at": "2026-08-09T19:33:00+00:00",
+  "generated_at": "2026-08-10T07:40:00+00:00",
   "schema": "tycho.release_manifest",
   "schema_version": 1
 }
