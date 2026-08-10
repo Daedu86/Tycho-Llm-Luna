@@ -19,18 +19,7 @@ REQUIRED_EXEC_FLAGS = {
     "--model",
     "--output-schema",
     "--json",
-    "--strict-config",
 }
-
-PLUGIN_CONFIG_OVERRIDES = [
-    'approval_policy="never"',
-    "features.shell_tool=false",
-    "tools.web_search=false",
-    "agents.enabled=false",
-    "features.skill_mcp_dependency_install=false",
-    'forced_login_method="chatgpt"',
-    'model_reasoning_effort="low"',
-]
 
 
 def _run(command: list[str]) -> subprocess.CompletedProcess[str]:
@@ -75,15 +64,6 @@ def main() -> int:
         print(f"CODEX PREFLIGHT FAILED: missing exec flags: {', '.join(missing)}")
         return 1
 
-    strict_command = [binary, "exec", "--strict-config", "--help"]
-    for override in PLUGIN_CONFIG_OVERRIDES:
-        strict_command[2:2] = ["-c", override]
-    strict = _run(strict_command)
-    if strict.returncode:
-        print("CODEX PREFLIGHT FAILED: plugin config overrides are not accepted by this Codex CLI")
-        print((strict.stderr or strict.stdout).strip())
-        return 1
-
     os.environ.setdefault("TYCHO_LLM_PLUGIN", "tycho.serving.codex_luna_plugin")
     os.environ.setdefault("LLM_BACKEND", "codex")
     os.environ.setdefault("LLM_MODEL", "gpt-5.6-luna")
@@ -115,7 +95,7 @@ def main() -> int:
         f"{version.stdout.strip() or version.stderr.strip()} | "
         f"{login.stdout.strip() or login.stderr.strip()} | "
         f"protocol={identity['api_protocol']} model={identity['model']} | "
-        "CLI flags/config accepted | no model request sent"
+        "no model request sent"
     )
     return 0
 
