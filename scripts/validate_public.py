@@ -14,7 +14,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "PUBLIC_RELEASE_MANIFEST.json"
-TEXT_SUFFIXES = {".cff", ".example", ".j2", ".json", ".md", ".py", ".tmpl", ".toml", ".txt", ".yaml", ".yml"}
+TEXT_SUFFIXES = {".cff", ".csv", ".example", ".j2", ".json", ".md", ".py", ".tmpl", ".toml", ".txt", ".yaml", ".yml"}
+TEXT_FILENAMES = {".gitignore", "Containerfile", "LICENSE", "Makefile"}
 SECRET_PATTERNS = (
     re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
     re.compile(r"AKIA[0-9A-Z]{16}"),
@@ -26,7 +27,13 @@ SECRET_PATTERNS = (
 
 
 def _sha(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    data = path.read_bytes()
+    if path.suffix.lower() in TEXT_SUFFIXES or path.name in TEXT_FILENAMES:
+        # Git can materialize text with CRLF on Windows. The release manifest
+        # records canonical LF content, so normalize line endings only for
+        # known text files while keeping binary files byte-exact.
+        data = data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+    return hashlib.sha256(data).hexdigest()
 
 
 def _manifest_checks() -> list[str]:
