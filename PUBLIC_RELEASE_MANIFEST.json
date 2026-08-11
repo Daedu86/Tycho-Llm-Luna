@@ -84,6 +84,9 @@
     "docs/CODEX_LUNA.md": {
       "sha256": "90572210d17fbe2effcdaa9f0511aa9de5f7063f8dfa9a5e081fc84f7920624b"
     },
+    "docs/EPISTEMIC_ARCHITECTURE.md": {
+      "sha256": "b2a352463827ca21e0accf88cbeaaa95899c5c367c4806243266b2ad39ded63f"
+    },
     "docs/PAPER_RESULTS.md": {
       "sha256": "dda3269a1c887fb0d1c360245f8b1effdd53eb8bdaaba2b33dc258c6104d78c9"
     },
@@ -137,6 +140,12 @@
     },
     "tests/agent/test_wm_signal.py": {
       "sha256": "5e96ae4b622e297cb890a159c9c70c5cd8c445e0fd879b91869c38432c1decec"
+    },
+    "tests/epistemic/__init__.py": {
+      "sha256": "9e1f34b2a72ead7428c05301d03c6f80266e19e305d927bc14ae340bc1f61eb7"
+    },
+    "tests/epistemic/test_grounding.py": {
+      "sha256": "7dc417264b3a0794682844017732b9e2803252cc4fe31cc074c10d5345e7da54"
     },
     "tests/harness/__init__.py": {
       "sha256": "9096a7ac1953e09a89c1ff90a6da30ead2462b7066b2c21ea20744287eba7f01"
@@ -303,6 +312,12 @@
     "tycho/config/settings.py": {
       "sha256": "563d05b5dafd94bc7c1429f2a8efe1864ce851fa9570e08db697dc1c21e1a5a2"
     },
+    "tycho/epistemic/__init__.py": {
+      "sha256": "85336b2694e1e16ef29c50a2437b70faae40b4791eb46bf09bb2a28714fabc65"
+    },
+    "tycho/epistemic/grounding.py": {
+      "sha256": "715f2a9b96f870e1f77c141097a3f384239fc9d96e449fb1a722f2e327e37455"
+    },
     "tycho/harness/__init__.py": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
@@ -466,7 +481,7 @@
       "sha256": "90a6a9d9060613c211708c2a99148acdb6754658e776d65556be670c43d796d3"
     }
   },
-  "generated_at": "2026-08-10T08:20:00+00:00",
+  "generated_at": "2026-08-11T12:00:00+00:00",
   "schema": "tycho.release_manifest",
   "schema_version": 1
 }
