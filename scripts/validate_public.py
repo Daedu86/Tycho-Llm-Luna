@@ -14,6 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "PUBLIC_RELEASE_MANIFEST.json"
+ARCHITECTURE_MANIFEST = ROOT / "ARCHITECTURE_MANIFEST.json"
 TEXT_SUFFIXES = {".cff", ".csv", ".example", ".j2", ".json", ".md", ".py", ".tmpl", ".toml", ".txt", ".yaml", ".yml"}
 TEXT_FILENAMES = {".gitignore", "Containerfile", "LICENSE", "Makefile"}
 SECRET_PATTERNS = (
@@ -36,18 +37,40 @@ def _sha(path: Path) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+def _manifest_payloads() -> tuple[dict, dict]:
+    public = json.loads(MANIFEST.read_text()) if MANIFEST.is_file() else {}
+    architecture = json.loads(ARCHITECTURE_MANIFEST.read_text()) if ARCHITECTURE_MANIFEST.is_file() else {}
+    return public, architecture
+
+
+def _combined_expected(public: dict, architecture: dict) -> dict:
+    expected = dict(public.get("files") or {})
+    # Architecture entries intentionally override the frozen public-release hashes
+    # for files changed on this research branch.
+    expected.update(architecture.get("files") or {})
+    return expected
+
+
 def _manifest_checks() -> list[str]:
     errors = []
     if not MANIFEST.is_file():
         return ["PUBLIC_RELEASE_MANIFEST.json is missing"]
-    manifest = json.loads(MANIFEST.read_text())
-    if manifest.get("schema") != "tycho.release_manifest":
+    public, architecture = _manifest_payloads()
+    if public.get("schema") != "tycho.release_manifest":
         errors.append("unexpected release-manifest schema")
     allowed_top_level = {"schema", "schema_version", "generated_at", "files"}
-    unexpected = set(manifest) - allowed_top_level
+    unexpected = set(public) - allowed_top_level
     if unexpected:
         errors.append(f"unexpected release-manifest fields: {sorted(unexpected)}")
-    expected = manifest.get("files") or {}
+
+    if ARCHITECTURE_MANIFEST.is_file():
+        if architecture.get("schema") != "tycho.architecture_manifest":
+            errors.append("unexpected architecture-manifest schema")
+        unexpected_arch = set(architecture) - allowed_top_level
+        if unexpected_arch:
+            errors.append(f"unexpected architecture-manifest fields: {sorted(unexpected_arch)}")
+
+    expected = _combined_expected(public, architecture)
     for rel, metadata in expected.items():
         path = ROOT / rel
         if not path.is_file():
@@ -69,15 +92,21 @@ def _manifest_checks() -> list[str]:
         tracked = set()
     if tracked:
         declared = set(expected) | {MANIFEST.name}
+        if ARCHITECTURE_MANIFEST.is_file():
+            declared.add(ARCHITECTURE_MANIFEST.name)
         for rel in sorted(tracked - declared):
-            errors.append(f"tracked file is absent from release manifest: {rel}")
+            errors.append(f"tracked file is absent from manifests: {rel}")
     return errors
 
 
 def _content_checks() -> list[str]:
     errors = []
-    manifest = json.loads(MANIFEST.read_text())
-    paths = [ROOT / rel for rel in manifest.get("files", {})] + [MANIFEST]
+    public, architecture = _manifest_payloads()
+    expected = _combined_expected(public, architecture)
+    paths = [ROOT / rel for rel in expected]
+    paths.append(MANIFEST)
+    if ARCHITECTURE_MANIFEST.is_file():
+        paths.append(ARCHITECTURE_MANIFEST)
     for path in paths:
         if path.suffix.lower() not in TEXT_SUFFIXES:
             continue
@@ -218,10 +247,12 @@ def main() -> int:
         for error in errors:
             print(f"  - {error}")
         return 1
-    count = len(json.loads(MANIFEST.read_text()).get("files") or {})
+    public, architecture = _manifest_payloads()
+    count = len(_combined_expected(public, architecture))
     config_count = len(list((ROOT / "configs" / "paper").glob("*.yaml"))) + 1
+    suffix = " + architecture overlay" if ARCHITECTURE_MANIFEST.is_file() else ""
     print(
-        f"TYCHO VALIDATION PASSED: {count} manifest files, "
+        f"TYCHO VALIDATION PASSED: {count} manifest files{suffix}, "
         f"{config_count} configs, no credentials used"
     )
     return 0
