@@ -3,6 +3,9 @@
     "docs/EPISTEMIC_ARCHITECTURE.md": {
       "sha256": "4a7ec691c1382392e2220769f6e083ff465b94bc31d711c09199444457ddbf96"
     },
+    "docs/EPISTEMIC_BENCHMARK.md": {
+      "sha256": "e9352a37486083c74ca8b14b1559296a99093964d320b7af35c5f3e539e056a0"
+    },
     "scripts/validate_public.py": {
       "sha256": "874e14a8da1e85cd5c4f56aed7fe2c8ba1f1fb3c7c7d234dba193a9d6f64836d"
     },
@@ -28,7 +31,7 @@
       "sha256": "715f2a9b96f870e1f77c141097a3f384239fc9d96e449fb1a722f2e327e37455"
     }
   },
-  "generated_at": "2026-08-11T13:15:00+00:00",
+  "generated_at": "2026-08-11T13:40:00+00:00",
   "schema": "tycho.architecture_manifest",
   "schema_version": 1
 }
