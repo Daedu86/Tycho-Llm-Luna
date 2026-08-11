@@ -14,6 +14,7 @@ from .grounding import (
     GroundingFrame,
     Grounder,
 )
+from .grid_grounder import GridComponentGrounder, summarize_grounding_frame
 
 __all__ = [
     "EvidenceRef",
@@ -23,4 +24,6 @@ __all__ = [
     "GroundedRelation",
     "GroundingFrame",
     "Grounder",
+    "GridComponentGrounder",
+    "summarize_grounding_frame",
 ]
