@@ -1,0 +1,34 @@
+{
+  "files": {
+    "docs/EPISTEMIC_ARCHITECTURE.md": {
+      "sha256": "4a7ec691c1382392e2220769f6e083ff465b94bc31d711c09199444457ddbf96"
+    },
+    "scripts/validate_public.py": {
+      "sha256": "874e14a8da1e85cd5c4f56aed7fe2c8ba1f1fb3c7c7d234dba193a9d6f64836d"
+    },
+    "tests/epistemic/__init__.py": {
+      "sha256": "9e1f34b2a72ead7428c05301d03c6f80266e19e305d927bc14ae340bc1f61eb7"
+    },
+    "tests/epistemic/test_grid_grounder.py": {
+      "sha256": "3c896352352c7216fa47788a04541103db942f38a985d50559b8f802d4d09785"
+    },
+    "tests/epistemic/test_grounding.py": {
+      "sha256": "7dc417264b3a0794682844017732b9e2803252cc4fe31cc074c10d5345e7da54"
+    },
+    "tycho/epistemic/__init__.py": {
+      "sha256": "12a20a5791fdf01800610fce86821b447622a94672877a252952b763aeae7acc"
+    },
+    "tycho/epistemic/grid_grounder.py": {
+      "sha256": "7a384dbd50e4c0d510b0f2ededf945273b5f276b7ea4c1b69070555641fcb93b"
+    },
+    "tycho/epistemic/grounded_agent.py": {
+      "sha256": "771cedb405615d909fb7e0a06b26fba10e4971227252cfb8cc34f28928f6a148"
+    },
+    "tycho/epistemic/grounding.py": {
+      "sha256": "715f2a9b96f870e1f77c141097a3f384239fc9d96e449fb1a722f2e327e37455"
+    }
+  },
+  "generated_at": "2026-08-11T13:15:00+00:00",
+  "schema": "tycho.architecture_manifest",
+  "schema_version": 1
+}
