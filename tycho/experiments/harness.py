@@ -117,14 +117,54 @@ def _evaluate_check(
             actual = _read_json_path(metric_path, check.path)
         except (OSError, ValueError, KeyError, IndexError, json.JSONDecodeError) as exc:
             return CheckResult("json_metric", False, f"unable to read {check.file}:{check.path}: {exc}")
-        if isinstance(actual, bool) or not isinstance(actual, (int, float)) or not math.isfinite(float(actual)):
-            return CheckResult("json_metric", False, f"metric {check.path} is not a finite number: {actual!r}")
-        expected = float(check.value)  # type: ignore[arg-type]
-        passed = bool(_COMPARATORS[check.op](float(actual), expected))
+        expected = check.value
+        if check.op in {">", ">=", "<", "<="}:
+            if (
+                isinstance(actual, bool)
+                or not isinstance(actual, (int, float))
+                or not math.isfinite(float(actual))
+            ):
+                return CheckResult(
+                    "json_metric",
+                    False,
+                    f"metric {check.path} is not a finite number: {actual!r}",
+                )
+            assert isinstance(expected, (int, float)) and not isinstance(expected, bool)
+            expected_number = float(expected)
+            passed = bool(_COMPARATORS[check.op](float(actual), expected_number))
+            return CheckResult(
+                "json_metric",
+                passed,
+                f"{check.file}:{check.path} = {actual} {check.op} {expected_number}: {passed}",
+            )
+
+        if isinstance(expected, bool):
+            comparable = isinstance(actual, bool)
+        elif isinstance(expected, str):
+            comparable = isinstance(actual, str)
+        elif isinstance(expected, (int, float)) and not isinstance(expected, bool):
+            comparable = (
+                isinstance(actual, (int, float))
+                and not isinstance(actual, bool)
+                and math.isfinite(float(actual))
+            )
+            if comparable:
+                actual = float(actual)
+                expected = float(expected)
+        else:
+            comparable = False
+
+        if not comparable:
+            return CheckResult(
+                "json_metric",
+                False,
+                f"metric {check.path} type {type(actual).__name__} is incompatible with expected {expected!r}",
+            )
+        passed = bool(_COMPARATORS[check.op](actual, expected))
         return CheckResult(
             "json_metric",
             passed,
-            f"{check.file}:{check.path} = {actual} {check.op} {expected}: {passed}",
+            f"{check.file}:{check.path} = {actual!r} {check.op} {expected!r}: {passed}",
         )
 
     return CheckResult(str(check.kind), False, "unsupported check kind")
