@@ -124,3 +124,61 @@ def test_host_runtime_is_never_accepted(tmp_path: Path):
     sandbox.runtime = "host"
     with pytest.raises(ProtocolError, match="require an isolated"):
         run_experiment(parse_protocol(protocol()), tmp_path, sandbox=sandbox)
+
+
+def test_boolean_json_metric_equality_promotes(tmp_path: Path):
+    (tmp_path / "experiment.py").write_text(
+        "import json, pathlib\n"
+        "pathlib.Path('metrics.json').write_text(json.dumps({'metrics': {'test_has_target': False}}))\n",
+        encoding="utf-8",
+    )
+    raw = protocol()
+    raw["steps"][0]["args"] = []
+    raw["steps"][0]["checks"] = [
+        {"kind": "exit_code", "equals": 0},
+        {
+            "kind": "json_metric",
+            "file": "metrics.json",
+            "path": "metrics.test_has_target",
+            "op": "==",
+            "value": False,
+        },
+    ]
+    result = run_experiment(parse_protocol(raw), tmp_path, sandbox=TestSandbox())
+    assert result["decision"] == "promote"
+
+
+def test_string_json_metric_equality_promotes(tmp_path: Path):
+    (tmp_path / "experiment.py").write_text(
+        "import json, pathlib\n"
+        "pathlib.Path('metrics.json').write_text(json.dumps({'metrics': {'dataset': 'titanic'}}))\n",
+        encoding="utf-8",
+    )
+    raw = protocol()
+    raw["steps"][0]["args"] = []
+    raw["steps"][0]["checks"] = [
+        {
+            "kind": "json_metric",
+            "file": "metrics.json",
+            "path": "metrics.dataset",
+            "op": "==",
+            "value": "titanic",
+        }
+    ]
+    result = run_experiment(parse_protocol(raw), tmp_path, sandbox=TestSandbox())
+    assert result["decision"] == "promote"
+
+
+def test_boolean_json_metric_ordered_comparison_is_rejected():
+    raw = protocol()
+    raw["steps"][0]["checks"] = [
+        {
+            "kind": "json_metric",
+            "file": "metrics.json",
+            "path": "metrics.test_has_target",
+            "op": ">=",
+            "value": False,
+        }
+    ]
+    with pytest.raises(ProtocolError, match="numeric for ordered"):
+        parse_protocol(raw)
