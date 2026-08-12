@@ -74,7 +74,7 @@ class Budget:
 class Check:
     kind: CheckKind
     equals: int | None = None
-    value: str | float | int | None = None
+    value: str | float | int | bool | None = None
     file: str | None = None
     path: str | None = None
     op: MetricOperator | None = None
@@ -128,8 +128,11 @@ def _parse_check(value: Any, path: str) -> Check:
     if op not in {">", ">=", "<", "<=", "==", "!="}:
         raise ProtocolError(f"{path}.op is not supported: {op}")
     target = raw.get("value")
-    if isinstance(target, bool) or not isinstance(target, (int, float)):
-        raise ProtocolError(f"{path}.value must be numeric for json_metric")
+    if op in {">", ">=", "<", "<="}:
+        if isinstance(target, bool) or not isinstance(target, (int, float)):
+            raise ProtocolError(f"{path}.value must be numeric for ordered json_metric comparisons")
+    elif not isinstance(target, (str, int, float, bool)):
+        raise ProtocolError(f"{path}.value must be a scalar for json_metric equality comparisons")
     return Check(
         kind="json_metric",
         file=metric_file,
