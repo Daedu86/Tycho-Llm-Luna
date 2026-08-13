@@ -1,0 +1,16 @@
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONNOUSERSITE=1 \
+    HOME=/tmp
+
+WORKDIR /opt/tycho
+COPY . /opt/tycho
+RUN python -m pip install --no-cache-dir . \
+    && mkdir -p /workspace /tmp \
+    && chown -R 65532:65532 /workspace /tmp
+
+USER 65532:65532
+WORKDIR /workspace
+ENTRYPOINT ["tycho-experiment"]
