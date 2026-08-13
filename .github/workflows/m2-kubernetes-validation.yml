@@ -1,0 +1,38 @@
+name: M2 Tycho Kubernetes Validation
+
+on:
+  push:
+    branches: [feature/tycho-kubernetes-sandbox]
+
+permissions:
+  contents: read
+
+jobs:
+  tycho-kubernetes:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install Tycho
+        run: python -m pip install -e '.[dev]'
+      - name: Compile package
+        run: python -m compileall -q tycho
+      - name: Kubernetes sandbox tests
+        run: pytest -q tests/test_kubernetes_sandbox.py tests/test_experiment_harness.py
+      - name: Build Kubernetes image
+        run: docker build -f deploy/kubernetes/Containerfile -t tycho-kubernetes:m2 .
+      - name: Verify Kubernetes runtime selector in image
+        run: |
+          docker run --rm \
+            -e TYCHO_SANDBOX_RUNTIME=kubernetes \
+            -e TYCHO_KUBERNETES_ISOLATED=1 \
+            -e TYCHO_KUBERNETES_NETWORK_POLICY=deny-all \
+            -e TYCHO_KUBERNETES_SERVICE_ACCOUNT_TOKEN=disabled \
+            -e TYCHO_KUBERNETES_IMAGE=tycho-kubernetes:m2 \
+            tycho-kubernetes:m2 --doctor
