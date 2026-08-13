@@ -37,11 +37,26 @@ def tracked_files() -> list[str]:
 
 def build_manifest() -> dict:
     existing = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.is_file() else {}
+    files = {rel: {"sha256": sha256(ROOT / rel)} for rel in tracked_files()}
+    schema = existing.get("schema", "tycho.release_manifest")
+    schema_version = existing.get("schema_version", 1)
+    unchanged = (
+        existing.get("schema") == schema
+        and existing.get("schema_version") == schema_version
+        and existing.get("files") == files
+    )
+    # Preserve generated_at for an already-current manifest so repeated CI runs
+    # are byte-for-byte idempotent and cannot create a self-triggering commit loop.
+    generated_at = (
+        existing.get("generated_at")
+        if unchanged and existing.get("generated_at")
+        else datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    )
     return {
-        "schema": existing.get("schema", "tycho.release_manifest"),
-        "schema_version": existing.get("schema_version", 1),
-        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "files": {rel: {"sha256": sha256(ROOT / rel)} for rel in tracked_files()},
+        "schema": schema,
+        "schema_version": schema_version,
+        "generated_at": generated_at,
+        "files": files,
     }
 
 
@@ -60,7 +75,6 @@ def main() -> int:
             print("PUBLIC_RELEASE_MANIFEST.json is missing")
             return 1
         current = json.loads(MANIFEST.read_text(encoding="utf-8"))
-        # generated_at is informational; freshness is defined by schema and files.
         comparable_current = {key: current.get(key) for key in ("schema", "schema_version", "files")}
         comparable_generated = {key: generated.get(key) for key in ("schema", "schema_version", "files")}
         if comparable_current != comparable_generated:
