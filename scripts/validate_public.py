@@ -14,6 +14,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "PUBLIC_RELEASE_MANIFEST.json"
+IGNORED_TRACKED_FILES = {
+    # Temporary branch-only CI harness. It is removed after M2 validation and is
+    # intentionally not part of the public release manifest.
+    ".github/workflows/m2-kubernetes-validation.yml",
+}
 TEXT_SUFFIXES = {".cff", ".example", ".j2", ".json", ".md", ".py", ".tmpl", ".toml", ".txt", ".yaml", ".yml"}
 SECRET_PATTERNS = (
     re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
@@ -61,7 +66,7 @@ def _manifest_checks() -> list[str]:
     except (OSError, subprocess.CalledProcessError):
         tracked = set()
     if tracked:
-        declared = set(expected) | {MANIFEST.name}
+        declared = set(expected) | {MANIFEST.name} | IGNORED_TRACKED_FILES
         for rel in sorted(tracked - declared):
             errors.append(f"tracked file is absent from release manifest: {rel}")
     return errors
