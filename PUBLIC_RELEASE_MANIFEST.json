@@ -1,4 +1,7 @@
 {
+  "schema": "tycho.release_manifest",
+  "schema_version": 1,
+  "generated_at": "2026-08-13T10:10:59.112112Z",
   "files": {
     ".env.example": {
       "sha256": "a363ca24d6626bcd8ea98b5da45878bcb4c991ca7b847be3ccf1924197aa5e50"
@@ -78,8 +81,14 @@
     "configs/smoke/minimal.yaml": {
       "sha256": "865e6bd4b3964c655b57a4745c7903d9622238fc7f85b8262a2493ab2208ea03"
     },
+    "deploy/kubernetes/Containerfile": {
+      "sha256": "d3ba1099d897f43239202a92f3aece1a6b51d84dd95f5d79ecee9f0cc026c08d"
+    },
     "docs/ARCHITECTURE.md": {
       "sha256": "72f9ac9f0f2e31ce259c9f8c414c3af17c5b40c8750b9b040a26b5d3e8255985"
+    },
+    "docs/NODES_EXPERIMENTS.md": {
+      "sha256": "5f9a6c12287a62db79c88d3b0b154935b2f10a32fdfa4d19fd97ac0553613d5e"
     },
     "docs/PAPER_RESULTS.md": {
       "sha256": "dda3269a1c887fb0d1c360245f8b1effdd53eb8bdaaba2b33dc258c6104d78c9"
@@ -88,13 +97,16 @@
       "sha256": "941a4857aba8bb9765eb895097c086676393ceab9239c797e29ef4ba55604c9e"
     },
     "pyproject.toml": {
-      "sha256": "a8ead8589c1c4d2e9e76f466fbad5592143bfc0e50463ad3b6d317b5d47a9734"
+      "sha256": "09e14a6e2335f5c29d8dda4357ab88453456e3fa20b07d4e2e486538280818c7"
+    },
+    "scripts/generate_public_manifest.py": {
+      "sha256": "2cdd415dafe2a45c3a137a00261c5c6ddf56911d37b2cacf499090f9466ec807"
     },
     "scripts/smoke_provider.py": {
       "sha256": "8921799eb87eec24cf8d86d13036ac06e74736b6423791cf957c1220308b122d"
     },
     "scripts/validate_public.py": {
-      "sha256": "0d83f37fa293cc70ac70059bc4755cb99662890b966dc2600ab390c7b75336a0"
+      "sha256": "7bb431493330b746df8bdbb3a20e7d69c58018003105a7815afd3d3e7c713427"
     },
     "scripts/validate_wheel.py": {
       "sha256": "16aa69e7cc6ae242e68c7a926b9a81485a08b1fb4b629ded7d675154a12fac3e"
@@ -188,6 +200,12 @@
     },
     "tests/serving/test_public_backends.py": {
       "sha256": "fffeeba4acde432d3dc30560b1aa55a087a9002a8b3b1e53c58e5c4474908dea"
+    },
+    "tests/test_experiment_harness.py": {
+      "sha256": "fbffe7bc5d144d3a0ff3dc46a2b08006fcfe35f63fc151fb9a23109611e54f63"
+    },
+    "tests/test_kubernetes_sandbox.py": {
+      "sha256": "b16159d630659d29845e8bb327782690caff0a7e4da9d8697173bf4fc0e5418b"
     },
     "tests/viewer/__init__.py": {
       "sha256": "e4f4bcf070a45ed89361fa215f55c4495f215371bcae4e6b42c63f653c9ba7ff"
@@ -293,6 +311,24 @@
     },
     "tycho/config/settings.py": {
       "sha256": "563d05b5dafd94bc7c1429f2a8efe1864ce851fa9570e08db697dc1c21e1a5a2"
+    },
+    "tycho/experiments/__init__.py": {
+      "sha256": "7eab132d505026bcfbb99137dbcaca61518ddb3bc39b4ec864fbcfd94d30074e"
+    },
+    "tycho/experiments/harness.py": {
+      "sha256": "9c34a51ddca7c2f04e24dccf338050178b001ebdadad770b35e7a92d1eaf5eb8"
+    },
+    "tycho/experiments/kubernetes_sandbox.py": {
+      "sha256": "1911b9ad6df4cd4cda0a2d2ef30d243ef90d787aa78aca9cde27c07be36aaeee"
+    },
+    "tycho/experiments/nodes_entry.py": {
+      "sha256": "b48acd53985409016331465e7c4a251cdbf738a6824c27a31efcda8a19f1da8d"
+    },
+    "tycho/experiments/nodes_run.py": {
+      "sha256": "1fb558d37787f844c6599e2b3c27f9d66fbd3d4b6bfb841d10af593225cac8ee"
+    },
+    "tycho/experiments/protocol.py": {
+      "sha256": "f664d3fd72ee2401f901d15380cc708ea399af2dc123fdf4a1fe22d52aeb37b9"
     },
     "tycho/harness/__init__.py": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -453,8 +489,5 @@
     "tycho/workspace/workspace.py": {
       "sha256": "90a6a9d9060613c211708c2a99148acdb6754658e776d65556be670c43d796d3"
     }
-  },
-  "generated_at": "2026-07-29T17:29:45.473646+00:00",
-  "schema": "tycho.release_manifest",
-  "schema_version": 1
+  }
 }
