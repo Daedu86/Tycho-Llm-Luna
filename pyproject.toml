@@ -32,7 +32,7 @@ tycho-run = "tycho.harness.run_parallel:main"
 tycho-submission-replay = "tycho.harness.submission_replay:main"
 tycho-viewer = "tycho.viewer.serve:main"
 tycho-sandbox = "tycho.workspace.sandbox:main"
-tycho-experiment = "tycho.experiments.nodes_run:main"
+tycho-experiment = "tycho.experiments.nodes_entry:main"
 
 [project.optional-dependencies]
 dev = ["pytest==9.1.1"]
